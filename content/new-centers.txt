@@ -1,0 +1,79 @@
+Name                                   | City        | State
+----------------------------------------------------------------------
+Darshan Fuel Station                   | Gwalior     | MP
+Shri Shesh Sai Filling Station         | Sonipat     | Haryana
+Guru Nanak Auto Care                   | Bathinda    | Punjab
+Kapoor Fuels                           | Lucknow     | UP
+Kapoor Petroleum                       | Lucknow     | UP
+Maa Betwa Filling Station              | Jhansi      | UP
+Aryan Pollution Check Centre           | Jalandhar   | Punjab
+Bhup Rabindra Pollution Check Centre   | Bathinda    | Punjab
+Bhola Pollution Check Centre           | Faridkot    | Punjab
+OP Filling Station                     | Patiala     | Punjab
+Shivank Singh                          | Barabanki   | UP
+Aggarwal GS Pollution Check Centre     | Jalandhar   | Punjab
+Ramgarh Filling Station                | Barnala     | Punjab
+Chakarvati Filling Station             | Patiala     | Punjab
+Rajan Pollution Check Centre           | Gurdaspur   | Punjab
+Bhagwan Das Fuel Centre                | Bahraich    | UP
+Goraya Pollution and Insurance Centre  | Kapurthala  | Punjab
+Kisan Sewa Kendra                      | Pulwama     | JK
+Shaheed Gurdeep Pollution Check Centre | Jammu       | JK
+Lajwanti Pollution Check Centre        | Jalandhar   | Punjab
+Khajala Pollution Check Centre         | Gurdaspur   | Punjab
+VB Filling Station                     | Samba       | JK
+RG Filling Station                     | Jammu       | JK
+Bholewasia Pollution Check Centre      | Ferozepur   | Punjab
+Kandola Pollution Check Centre         | Jalandhar   | Punjab
+Kathpal Pollution Check Centre & Ins.  | Ferozepur   | Punjab
+Deep Pollution Check Centre            | Ludhiana    | Punjab
+Mikhil Pollution Services              | Jalandhar   | Punjab
+Sodhi Mangal Singh Highway Fuels       | Ferozepur   | Punjab
+Kulrian Pollution Check Centre         | Bathinda    | Punjab
+Inderjeet Verma                        | Fatehpur    | UP
+Dhir Pollution Check Centre            | Jalandhar   | Punjab
+Maqbool Fuel Station                   | Budgam      | JK
+Sada Bahar Filling Station             | Srinagar    | JK
+Sharma Pollution Check Centre          | Jalandhar   | Punjab
+Chawala Pollution Check Centre         | Faridkot    | Punjab
+Naaz Pollution Check Centre            | Ludhiana    | Punjab
+Apple Town Filling Station             | Baramulla   | JK
+Nowshera Filling Station               | Srinagar    | JK
+Evergreen Filling Station              | Kupwara     | JK
+Amar Jawan Fuels                       | Raipur      | Chhattisgarh
+Mehboob Filling Station                | Srinagar    | JK
+Fatehgarh Sahib Filling Station        | Patiala     | Punjab
+Amrit Pollution Check Centre           | Ludhiana    | Punjab
+Malwa Pollution Check Centre           | Sangrur     | Punjab
+Wadala Suvidha Online Service          | Amritsar    | Punjab
+Bee Kay Pollution Check Centre         | Ludhiana    | Punjab
+Tanvir Pollution Check Centre          | Jalandhar   | Punjab
+Rehmaan Filling Station                | Malerkotla  | Punjab
+Rafiquee Ventures Pvt Ltd              | Sonwar      | J&K
+Asian Fuels                            | Srinagar    | J&K
+Shamsher Singh Grewal Petro            | Ludhiana    | Punjab
+Gill Petro                             | Ludhiana    | Punjab
+Aaplus Pollution Check Centre          | Jalandhar   | Punjab
+Bansal HP Centre                       | Sangrur     | Punjab
+Jindal Auto Care                       | Ropar       | Punjab
+Chharoda Service Station KSK           | Mewat       | Haryana
+M/s Darshan Fuel Station               | Gwalior     | Madhya Pradesh
+Shri Balaji Enterprises                | Gurdaspur   | Punjab
+Jaipal Garg                            | Patiala     | Punjab
+Shri Balaji Enterprises                | Gurdaspur   | Punjab
+Punjab Pollution Check Centre          | Kapurthala  | Punjab
+Prime Pollution Centre                 | Budgam      | JK
+Dinesh Fuels                           | Kondagaon   | Chhattisgarh
+Aman Sukh Pollution Check Centre       | Hoshiarpur  | Punjab
+Jati Ram Sadhu Ram                     | Rupnagar    | Punjab
+Labhi Pollution Check Centre           | Rupnagar    | Punjab
+OM Pollution Check Centre              | Nawanshahr  | Punjab
+Captain Pollution Check Centre         | Nawanshahr  | Punjab
+Kalia Pollution Check Centre           | Jalandhar   | Punjab
+Vikram HP Centre                       | Mandi       | Himachal Pradesh
+Alok Kumar Jaiswal                     | Bhadohi     | Uttar Pradesh
+Kiana Pollution Check Centre           | Vadodara    | Gujarat
+Khurana Pollution Check Centre         | Sirsa       | Haryana
+Khalsa Pollution Check Centre          | Jalandhar   | Punjab
+Shri Balaji Enterprises                | Moga        | Punjab
+Patel Filling Station                  | Kiana       | Gujarat
