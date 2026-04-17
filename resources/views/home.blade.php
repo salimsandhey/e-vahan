@@ -965,164 +965,110 @@
                     <div class="title-area text-center">
                         <h2 class="sec-title">eVSK Business Models</h2>
                         <p class="sec-text px-lg-10 text-justify">
-                            eVAHAN®️, is inviting applications to own and operate eVAHAN
-                            Suvidha Kendra, Government Approved Online pollution check
-                            centres. These centres will be placed at petrol pumps and shops
-                            in high footfall areas, these centres will be allotted Pin code
-                            wise on first come first basis. The eligible candidates will be
-                            considered for allotment of eVAHAN Suvidha Kendra on various
-                            investment models. eVAHAN®️ will provide all necessary
-                            system/infrastructure to start the centre, The models are
-                            designed to ensure attractive returns.
+                            We have two exciting business model options for you including Saksham Campaign and the eVAHAN®
+                            Subsidy Model. Together they open the door for you to step into entrepreneurship with
+                            confidence, even with limited resources. The best part is, these models remove the biggest
+                            barriers—high investment, complex setup, and uncertainty—by simply offering government
+                            support, easy financing, and a ready-to-run business at sutaible locations.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="price-box-wrap">
-                <div class="row gx-108 justify-content-between slider-shadow th-carousel" id="eVSKmoddels1"
-                    data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1"
-                    data-xs-slide-show="1">
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInLeft" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">Subsidy Model</div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                        <div class="price-box mx-auto wow fadeInLeft"
+                            data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                            <div class="price-box_package layer-btn">Saksham Campaign</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Subsidy Up to ₹ 70,000 on machinery and equipment</span>
+                                <span>Self-Employment for 50,000+ Youth; 20,000+ PUC centres at IOCL, HPCL, BPCL pumps &
+                                    shops</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Total Machinery & Equipment cost for the setup is approx. ₹
-                                    2.50 lakh*.</span>
+                                <span>Mandatory High-Demand Service: PUC required every 3–6 months for 34 crore
+                                    vehicles</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Complete Setup, Training and Branding will be done by the
-                                    company.</span>
+                                <span>7 Revenue Streams: PUC, Insurance, FASTag, RSA, eChallan, Travel,
+                                    Driver-on-Call</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Marketing Campaigns to ensure desired revenues will be done
-                                    by the company.</span>
+                                <span>Easy Eligibility: Age 18+, 10+2 ; 5–10% contribution</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    No revenue sharing with company, 100% revenue is for the
-                                    franchise owner.</span>
+                                <span>Low Investment: General: ₹68000/- | Reserved: ₹34000/-; Subsidy: 15% (Gen) | 25%
+                                    (Res)</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Portal for Insurance, FASTag, Tour and Travel Booking, RSA
-                                    and other online services will be provided.</span>
+                                <span>Up to 95% Funding Support: MSME-backed; 15–35% subsidy; 84% ROI</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span> Get easy loan up to 90% of total amount.</span>
+                                <span>2-Phase Rollout: Ph 1: Apply and submit docs | Ph 2: Funding, Setup, Train</span>
+                            </p>
+                            <p class="price-box_info">
+                                <i class="fa-thin fa-check-to-slot icon-space"></i>
+                                <span>Future-Ready Business: Jobs + Pollution Control | Backed by Make in India, MSME</span>
                             </p>
                             <div class="model-download center">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel1">Download
                                     Brochure</button>
                             </div>
-                            <!-- {{-- <a href="{{ url('#') }}" class="th-btn style4" id="openBtn">Download Brochure</a> --}}
-                                                                    {{-- <button id="openBtn" class="th-btn style4">Download Brochure</button> --}} -->
                         </div>
                     </div>
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">Earn & Pay Model</div>
+                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                        <div class="price-box mx-auto wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                            <div class="price-box_package layer-btn">Subsidy</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>No Need to Buy Expensive Machinery</span>
+                                <span>Total setup ~₹6.20L with kiosk. Up to 20% Subsidy (Zero cap on subsidy
+                                    value)</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Minimum Paper Work</span>
+                                <span>100% Revenue = Your Profit: No revenue sharing; keep all earnings</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Instant Approval</span>
+                                <span>Turnkey Setup in 45 Days: Location + machinery + branding + license +
+                                    training</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Revenue based rental model</span>
+                                <span>7 Revenue Streams: PUC, Insurance, FASTag, RSA, e-Challan, Waterless Wash,
+                                    Driver-on-Call</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Zero Maintenance cost for Machines</span>
+                                <span>Mandatory Service: ₹10K fine for no PUC/insurance; PUC required for insurance
+                                    claims</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Support in Sales Promotional activities</span>
+                                <span>Free Digital Portal: Digital DL/RC/PUC records + auto-reminders for due
+                                    dates</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Free Portal for Vehicle Insurance FASTag, RSA, Tour &
-                                    Travel Booking, Driver Booking and Vehicle cleaning
-                                    Kits</span>
+                                <span>Trusted Partners: HP/IOCL/BPCL (locations);</span>
                             </p>
-                            <!-- <a href="{{ url('#') }}" class="th-btn style4">Download Brochure</a> -->
+                            <br /><br />
                             <div class="model-download center">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel2">Download
                                     Brochure</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInRight" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">
-                                Guaranteed Returns Model
-                            </div>
-                            <p class="price-box_text">Key Highlights</p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Income Plan</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Return of 30% on Investment</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>No Revenue/Profit Sharing</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>All operating expenses will be borne by the company</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Profit Sharing Plan</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Return of 10% on Investment</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Profit Sharing of 50-50 (including Guaranteed Return of
-                                    10%)</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>All operating expenses will be borne by the company</span>
-                            </p>
-                            <!-- <a href="{{ url('#') }}" class="th-btn style4">Download Brochure</a> -->
-                            <div class="model-download center">
-                                <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel3">Download
-                                    Brochure</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="line-ani"></div>
-                <div class="line-ani"></div>
+                <div class="line-ani" style="left: 50%;"></div>
                 <div class="particle" id="particle2"></div>
                 <div class="particle" id="particle3"></div>
 
@@ -1134,7 +1080,6 @@
                         <i class="far fa-chevron-right"></i>
                     </button>
                 </div>
-
             </div>
         </div>
     </section>

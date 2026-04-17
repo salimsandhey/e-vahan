@@ -220,7 +220,7 @@
                 <div class="col-12">
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
-                        <h2 class="sec-title">iAUTO Ventures Private Limited</h2>
+                        <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
                         <p class="hero-para">
                             (A Joint Venture of VKARE Retail Ventures Private Limited and
                             FDL Services, United Kingdom)
@@ -269,9 +269,7 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">E-160, Phase 7, Industrial Area,
-                                    SAS Nagar Mohali -
-                                    160055</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -282,8 +280,8 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Registered Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">15, Lajpat Nagar, Jalandhar,
-                                    Punjab-144001</a>
+                                <a href="{{ url('#') }}" class="info-card_link">Nehru Garden Road, Jalandhar,
+                                     Punjab-144001</a>
                             </div>
                         </div>
                     </div>

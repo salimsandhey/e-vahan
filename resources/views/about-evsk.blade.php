@@ -19,33 +19,25 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 pe-xl-5 mb-5 mb-lg-0">
                     <div class="th-video wow fadeInLeft">
-                        <img class="w-100" src="{{ asset('assets/img/main-banner/about-evsk-slider-02.png') }}"
+                        <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 14 (1).png') }}"
                             alt="about" />
-                        <a href="{{ url('assets/video/about-evsk-video.mp4') }}" class="play-btn style2 popup-video"><i
+                        <a href="https://www.youtube.com/watch?v=iox_jfMV9Hk" class="play-btn style2 popup-video"><i
                                 class="fas fa-play"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
                     <h2 class="mt-n3">About eVAHAN</h2>
-                    <p class="pra-text mb-4">
-                        eVAHAN® is a new-age automobile maintenance start-up. Working with a vision to transform the
-                        unorganized vehicle maintenance
-                        market using new-age technology, eVAHAN delivers top-notch services ranging from vehicle servicing
-                        to renewing mandatory
-                        vehicle certificates and providing expert driving lessons at unbelievably affordable prices. Our
-                        global partners have
-                        done pioneering work in partnership with the Indian automotive industry in the field of engine
-                        development &
-                        instrumentation. Our partners have played a leading role with automobile manufacturing companies in
-                        setting & meeting
-                        goals on vehicular emission norms in line with European and global legislation through engine
-                        development, testing, &
-                        Instrumentation systems.<br /><br />
-                        We at eVAHAN aren't just another automotive service provider. We're your trusted companions on the
-                        road, ensuring a
-                        smooth and worry-free journey for you and your vehicle. Founded with a vision to revolutionize car
-                        care, we combine
-                        technology with dedicated professionals to deliver exceptional service at affordable prices.
+                    <p class="pra-text mb-4 text-justify">
+                        Welcome to eVAHAN Suvidha Kendra (eVSK), a powerful opportunity for ambitious youngsters like
+                        you, who want to start their own business but don't have huge capital to invest. The best part
+                        is this golden opportunity project is backed by Government-supported initiative. These eVSK’s
+                        can be set up at petrol pumps or shops. These kendras are service points for essential
+                        vehicle-related needs like pollution checks, fitness tests of vehicles, and other necessary
+                        documentation.<br /><br />
+                        It’s not just about starting a business—it’s more about becoming a part of a system that solves
+                        two major problems of economy and ecosystem. With eVSK, you get a chance to build a stable
+                        income, be your own boss, and contribute to the environment as a leader for a greener
+                        environment by ensuring vehicles on the road meet required standards.
                     </p>
                 </div>
             </div>
@@ -102,7 +94,7 @@
                 <div class="col-12">
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
-                        <h2 class="sec-title">iAUTO Ventures Private Limited</h2>
+                        <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
                         <p class="hero-para">
                             (A Joint Venture of VKARE Retail Ventures Private Limited and
                             FDL Services, United Kingdom)
@@ -151,9 +143,7 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">E-160, Phase 7, Industrial Area,
-                                    SAS Nagar Mohali -
-                                    160055</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -164,7 +154,7 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Registered Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">15, Lajpat Nagar, Jalandhar,
+                                <a href="{{ url('#') }}" class="info-card_link">Nehru Garden Road, Jalandhar,
                                     Punjab-144001</a>
                             </div>
                         </div>
@@ -242,163 +232,110 @@
                     <div class="title-area text-center">
                         <h2 class="sec-title">eVSK Business Models</h2>
                         <p class="sec-text px-lg-10 text-justify">
-                            eVAHAN®️, is inviting applications to own and operate eVAHAN
-                            Suvidha Kendra, Government Approved Online pollution check
-                            centres. These centres will be placed at petrol pumps and shops
-                            in high footfall areas, these centres will be allotted Pin code
-                            wise on first come first basis. The eligible candidates will be
-                            considered for allotment of eVAHAN Suvidha Kendra on various
-                            investment models. eVAHAN®️ will provide all necessary
-                            system/infrastructure to start the centre, The models are
-                            designed to ensure attractive returns.
+                            We have two exciting business model options for you including Saksham Campaign and the eVAHAN®
+                            Subsidy Model. Together they open the door for you to step into entrepreneurship with
+                            confidence, even with limited resources. The best part is, these models remove the biggest
+                            barriers—high investment, complex setup, and uncertainty—by simply offering government
+                            support, easy financing, and a ready-to-run business at sutaible locations.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="price-box-wrap">
-                <div class="row gx-108 justify-content-between slider-shadow th-carousel" id="eVSKmoddels1" data-slide-show="3" data-lg-slide-show="3"
-                    data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1">
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInLeft" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">Subsidy</div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                        <div class="price-box mx-auto wow fadeInLeft"
+                            data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                            <div class="price-box_package layer-btn">Saksham Campaign</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Subsidy Up to ₹ 70,000 on machinery and equipment</span>
+                                <span>Self-Employment for 50,000+ Youth; 20,000+ PUC centres at IOCL, HPCL, BPCL pumps &
+                                    shops</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Total Machinery & Equipment cost for the setup is approx. ₹
-                                    2.50 lakh*.</span>
+                                <span>Mandatory High-Demand Service: PUC required every 3–6 months for 34 crore
+                                    vehicles</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Complete Setup, Training and Branding will be done by the
-                                    company.</span>
+                                <span>7 Revenue Streams: PUC, Insurance, FASTag, RSA, eChallan, Travel,
+                                    Driver-on-Call</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Marketing Campaigns to ensure desired revenues will be done
-                                    by the company.</span>
+                                <span>Easy Eligibility: Age 18+, 10+2 ; 5–10% contribution</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    No revenue sharing with company, 100% revenue is for the
-                                    franchise owner.</span>
+                                <span>Low Investment: General: ₹68000/- | Reserved: ₹34000/-; Subsidy: 15% (Gen) | 25%
+                                    (Res)</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>
-                                    Portal for Insurance, FASTag, Tour and Travel Booking, RSA
-                                    and other online services will be provided.</span>
+                                <span>Up to 95% Funding Support: MSME-backed; 15–35% subsidy; 84% ROI</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span> Get easy loan up to 90% of total amount.</span>
+                                <span>2-Phase Rollout: Ph 1: Apply and submit docs | Ph 2: Funding, Setup, Train</span>
+                            </p>
+                            <p class="price-box_info">
+                                <i class="fa-thin fa-check-to-slot icon-space"></i>
+                                <span>Future-Ready Business: Jobs + Pollution Control | Backed by Make in India, MSME</span>
                             </p>
                             <div class="model-download center">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel1">Download
                                     Brochure</button>
                             </div>
-                            <!-- {{-- <a href="{{ url('#') }}" class="th-btn style4" id="openBtn">Download Brochure</a> --}}
-                                                {{-- <button id="openBtn" class="th-btn style4">Download Brochure</button> --}} -->
                         </div>
                     </div>
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">Earn & Pay</div>
+                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                        <div class="price-box mx-auto wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                            <div class="price-box_package layer-btn">Subsidy</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>No Need to Buy Expensive Machinery</span>
+                                <span>Total setup ~₹6.20L with kiosk. Up to 20% Subsidy (Zero cap on subsidy
+                                    value)</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Minimum Paper Work</span>
+                                <span>100% Revenue = Your Profit: No revenue sharing; keep all earnings</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Instant Approval</span>
+                                <span>Turnkey Setup in 45 Days: Location + machinery + branding + license +
+                                    training</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Revenue based rental model</span>
+                                <span>7 Revenue Streams: PUC, Insurance, FASTag, RSA, e-Challan, Waterless Wash,
+                                    Driver-on-Call</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Zero Maintenance cost for Machines</span>
+                                <span>Mandatory Service: ₹10K fine for no PUC/insurance; PUC required for insurance
+                                    claims</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Support in Sales Promotional activities</span>
+                                <span>Free Digital Portal: Digital DL/RC/PUC records + auto-reminders for due
+                                    dates</span>
                             </p>
                             <p class="price-box_info">
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Free Portal for Vehicle Insurance FASTag, RSA, Tour &
-                                    Travel Booking, Driver Booking and Vehicle cleaning
-                                    Kits</span>
+                                <span>Trusted Partners: HP/IOCL/BPCL (locations);</span>
                             </p>
-                            <!-- <a href="{{ url('#') }}" class="th-btn style4">Download Brochure</a> -->
+                            <br /><br />
                             <div class="model-download center">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel2">Download
                                     Brochure</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-auto">
-                        <div class="price-box wow fadeInRight" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
-                            <div class="price-box_package layer-btn">
-                                Guaranteed Returns
-                            </div>
-                            <p class="price-box_text">Key Highlights</p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Income Plan</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Return of 30% on Investment</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>No Revenue/Profit Sharing</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>All operating expenses will be borne by the company</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Profit Sharing Plan</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Guaranteed Return of 10% on Investment</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>Profit Sharing of 50-50 (including Guaranteed Return of
-                                    10%)</span>
-                            </p>
-                            <p class="price-box_info">
-                                <i class="fa-thin fa-check-to-slot icon-space"></i>
-                                <span>All operating expenses will be borne by the company</span>
-                            </p>
-                            <!-- <a href="{{ url('#') }}" class="th-btn style4">Download Brochure</a> -->
-                            <div class="model-download center">
-                                <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel3">Download
-                                    Brochure</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="line-ani"></div>
-                <div class="line-ani"></div>
+                <div class="line-ani" style="left: 50%;"></div>
                 <div class="particle" id="particle2"></div>
                 <div class="particle" id="particle3"></div>
 
@@ -1045,54 +982,75 @@
                 <h2 class="sec-title">Gallery of eVSK</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2"
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2"
                 data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-1.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-1.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-2.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-2.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-3.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-3.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-4.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-4.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-5.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-5.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-6.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-6.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="team-grid-img wow fadeInUp">
+                    <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-7.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-7.jpeg') }}" alt="Gallery Image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-8.jpeg') }}" alt="Gallery Image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-9.jpeg') }}" alt="Gallery Image" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/new-gallery-10.jpeg') }}" alt="Gallery Image" />
                         </div>
                     </div>
                 </div>

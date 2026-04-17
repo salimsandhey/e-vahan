@@ -150,8 +150,7 @@
                                     <div class="contact-box_info">
                                         <p class="contact-box_text">Corporate Office Address</p>
                                         <h5 class="contact-box_link">
-                                            E-160, Phase 7, Industrial Area, SAS Nagar Mohali -
-                                            160055
+                                            G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA
                                         </h5>
                                     </div>
                                 </div>
@@ -166,7 +165,7 @@
                                     <div class="contact-box_info">
                                         <p class="contact-box_text">Registered Office Address</p>
                                         <h5 class="contact-box_link">
-                                            15, Lajpat Nagar, Jalandhar, Punjab-144001
+                                            Nehru Garden Road, Jalandhar, Punjab-144001
                                         </h5>
                                     </div>
                                 </div>
