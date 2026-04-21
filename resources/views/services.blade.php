@@ -22,7 +22,7 @@
                     <div class="service-box wow fadeInUp">
                         <div class="service-box_img">
                             <a href="{{ url('evahan-suvidha-kendra') }}">
-                                <img src="{{ asset('assets/img/main-banner/eVAHAN-Services-01.webp') }}" alt="service image" />
+                                <img src="{{ asset('assets/img/main-banner/Frame 14 (1).png') }}" alt="service image" />
                             </a>
                         </div>
                         <div class="service-box_content">
@@ -43,7 +43,7 @@
                     <div class="service-box wow fadeInDown">
                         <div class="service-box_img">
                             <a href="{{ url('automatic-testing-system') }}">
-                                <img src="{{ asset('assets/img/main-banner/eVAHAN-Services-02.webp') }}" alt="service image" />
+                                <img src="{{ asset('assets/img/main-banner/Automatic test system project .png') }}" alt="service image" />
                             </a>
                         </div>
                         <div class="service-box_content">
@@ -64,7 +64,7 @@
                     <div class="service-box wow fadeInUp">
                         <div class="service-box_img">
                             <a href="{{ url('automatic-driving-training-centre') }}">
-                                <img src="{{ asset('assets/img/main-banner/eVAHAN-Services-03.webp') }}" alt="service image" />
+                                <img src="{{ asset('assets/img/main-banner/Automatic driving training centre project .png') }}" alt="service image" />
                             </a>
                         </div>
                         <div class="service-box_content">

@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/ADTC-Service-Image.webp') }}" alt="Service Image" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automatic driving training centre project .png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto;" />
                     {{-- <div class="th-video wow fadeInLeft">
 
                         <a href="{{ url('assets/video/about-evsk-video.mp4') }}" class="play-btn style2 popup-video"><i

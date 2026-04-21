@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/ATS-Service-Image.webp') }}" alt="Service Image" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automatic test system project .png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto;" />
                     <h3 class="single-title">
                         About Automated Testing System (ATS)
                     </h3>

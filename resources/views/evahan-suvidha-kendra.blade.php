@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/eVSK-Service-Image.webp') }}" alt="Service Image" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 14 (1).png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto;" />
                     <h3 class="single-title">
                         About eVAHAN Suvidha Kendra (eVSK)
                     </h3>

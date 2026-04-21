@@ -109,7 +109,7 @@
                         <a target="_blank" href="{{ url('https://seospacecastle.com/') }}" style="color: #fff">SEO Space Castle</a>
                     </p> -->
                     <p class="copyright-text copyright-text-right" style="opacity: 0.8;">
-                        Handcrafted with <span style="color: #ff4d4d; margin: 0 3px;">❤</span> by 
+                        Handcrafted by 
                         <span style="margin: 0 12px; border-left: 1px solid rgba(255,255,255,0.3); height: 14px; display: inline-block; vertical-align: middle;"></span>
                         <a target="_blank" href="{{ url('https://seospacecastle.com/') }}" style="color: #ffffff; font-weight: 700; text-decoration: none; text-transform: uppercase;">SEO Space Castle</a>
                     </p>

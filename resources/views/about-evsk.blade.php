@@ -913,7 +913,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img b-radius">
-                            <img src="{{ asset('assets/img/main-banner/evsk-services-1.jpg') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/vehicle insurance .png') }}" alt="Team" />
                         </div>
 
                         <div class="service-list-box-center">
@@ -924,7 +924,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img b-radius">
-                            <img src="{{ asset('assets/img/main-banner/evsk-services-2.jpg') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/Driver on call.png') }}" alt="Team" />
                         </div>
                         <div class="service-list-box-center">
                             <h3 class="team-title1">Driver on Call</h3>
@@ -934,7 +934,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img b-radius">
-                            <img src="{{ asset('assets/img/main-banner/evsk-services-3.jpg') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/Fastag.png') }}" alt="Team" />
                         </div>
                         <div class="service-list-box-center">
                             <h3 class="team-title1">FASTag</h3>
@@ -954,7 +954,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img b-radius">
-                            <img src="{{ asset('assets/img/main-banner/evsk-services-5.jpg') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/Roadside assistance .png') }}" alt="Team" />
                         </div>
                         <div class="service-list-box-center">
                             <h3 class="team-title1">Roadside Assistance</h3>
@@ -964,7 +964,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img b-radius">
-                            <img src="{{ asset('assets/img/main-banner/evsk-services-6.jpg') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/Waterless car wash.png') }}" alt="Team" />
                         </div>
                         <div class="service-list-box-center">
                             <h3 class="team-title1">Waterless Car Wash</h3>
