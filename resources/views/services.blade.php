@@ -81,6 +81,27 @@
                         <a href="{{ url('automatic-driving-training-centre') }}" class="th-btn">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box wow fadeInDown">
+                        <div class="service-box_img">
+                            <a href="{{ url('smart-traffic-parking-management-systems') }}">
+                                <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}" alt="service image" />
+                            </a>
+                        </div>
+                        <div class="service-box_content">
+                            <div class="service-box_icon">
+                                <i class="fa-light fa-traffic-light"></i>
+                            </div>
+                            <h3 class="service-box_title">
+                                <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management</a>
+                            </h3>
+                            <p class="service-box_text">
+                                Smart Traffic and Parking Management Systems are intelligent, technology-enabled solutions......
+                            </p>
+                        </div>
+                        <a href="{{ url('smart-traffic-parking-management-systems') }}" class="th-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -199,6 +220,9 @@
                                     </option>
                                     <option value="Automatic Driving Training Centre">
                                         Automatic Driving Training Centre (ADTC)
+                                    </option>
+                                    <option value="Smart Traffic and Parking Management Systems">
+                                        Smart Traffic and Parking Management Systems (STPMS)
                                     </option>
                                 </select>
                             </div>

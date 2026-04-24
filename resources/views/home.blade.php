@@ -43,10 +43,10 @@
         </div>
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}" alt="Final Hero Image" />
+                <img src="{{ asset('assets/img/main-banner/stpms-bg.png') }}" alt="Final Hero Image" />
             </div>
             <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}"
+                <img src="{{ asset('assets/img/main-banner/stpms-bg.png') }}"
                     alt="Final Mobile Hero Image" />
             </div>
             <div>
@@ -60,7 +60,7 @@
                         transparent revenue generation powered by advanced technology.
                     </p>
                     <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                        <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
+                        <a href="{{ url('smart-traffic-parking-management-systems') }}" class="th-btn">Know More</a>
                     </div>
                 </div>
             </div>
@@ -335,6 +335,21 @@
                                 vehicle's tyres. From
                                 puncture repairs to tyre maintenance tips, we have everything you need to keep rolling
                                 smoothly on the road ahead.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="service-block shadow wow fadeInDown">
+                        <div class="service-block_img">
+                            <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}" alt="service image" style="height: 100px; object-fit: cover;" />
+                        </div>
+                        <div class="service-block_content">
+                            <h3 class="service-block_title">
+                                <a href="{{ url('smart-traffic-parking-management-systems') }}">Parking Management (STPMS)</a>
+                            </h3>
+                            <p class="service-block_text">
+                                Smart Traffic and Parking Management Systems are intelligent, technology-enabled solutions that help facilitate smoother automobile traffic, and simplify parking.
                             </p>
                         </div>
                     </div>

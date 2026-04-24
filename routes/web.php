@@ -31,6 +31,8 @@ Route::get('services', [HomeController::class, 'services']);
 Route::get('evahan-suvidha-kendra', [HomeController::class, 'evahan_suvidha_kendra']);
 Route::get('automatic-testing-system', [HomeController::class, 'automatic_testing_system']);
 Route::get('automatic-driving-training-centre', [HomeController::class, 'automatic_driving_training_centre']);
+Route::get('smart-traffic-parking-management-systems', [HomeController::class, 'smart_traffic_parking_management_systems']);
+
 Route::get('blog', [HomeController::class, 'blog']);
 // Route::get('blog-details', [HomeController::class, 'blog_details']);
 Route::get('contact-us', [HomeController::class, 'contact']);

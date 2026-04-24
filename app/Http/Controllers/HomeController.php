@@ -53,6 +53,12 @@ class HomeController extends Controller
         return view('automatic-driving-training-centre', compact('title'));
     }
 
+    public function smart_traffic_parking_management_systems()
+    {
+        $title = 'Smart Traffic and Parking Management Systems (STPMS)';
+        return view('smart-traffic-parking-management-systems', compact('title'));
+    }
+
     public function blog()
     {
         $title = 'Latest eVAHAN Blogs';

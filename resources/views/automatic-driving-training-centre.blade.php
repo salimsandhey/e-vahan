@@ -1,5 +1,18 @@
 @extends('layouts.app')
 @section('style')
+    <style>
+        .gallery-carousel .team-img img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+        .gallery-carousel .team-content {
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -21,7 +34,7 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automatic driving training centre project .png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto;" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automatic driving training centre project .png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto; border-radius: 10px;" />
                     {{-- <div class="th-video wow fadeInLeft">
 
                         <a href="{{ url('assets/video/about-evsk-video.mp4') }}" class="play-btn style2 popup-video"><i
@@ -56,6 +69,9 @@
                                 </li>
                                 <li>
                                     <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
                                 </li>
                             </ul>
                         </div>
@@ -283,47 +299,83 @@
                 <h2 class="sec-title">Automatic Driving Training Centre Gallery</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
                 data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image01.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image01.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image02.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image02.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image03.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image03.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image04.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image04.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image05.webp') }}" alt="Team" />
+                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image05.webp') }}" alt="Gallery Image" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">eVAHAN Center</a>
+                            </h3>
+                            <span class="team-desig" style="visibility: hidden; opacity: 0;">Location</span>
                         </div>
                     </div>
                 </div>
@@ -447,6 +499,9 @@
                                     </option>
                                     <option value="Automatic Driving Training Centre">
                                         Automatic Driving Training Centre (ADTC)
+                                    </option>
+                                    <option value="Smart Traffic and Parking Management Systems">
+                                        Smart Traffic and Parking Management Systems (STPMS)
                                     </option>
                                 </select>
                             </div>

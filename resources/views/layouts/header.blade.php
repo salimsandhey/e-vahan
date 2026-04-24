@@ -24,6 +24,9 @@
                         <li>
                             <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
                         </li>
+                        <li>
+                            <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -107,6 +110,9 @@
                                                 </li>
                                                 <li>
                                                     <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
                                                 </li>
                                             </ul>
                                         </li>
