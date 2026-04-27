@@ -6,11 +6,36 @@
             height: 260px;
             object-fit: cover;
         }
+
         .gallery-carousel .team-content {
             min-height: 110px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+
+        .breadcumb-wrapper {
+            background-size: 100% auto !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            padding: 70px 0 !important;
+            min-height: unset !important;
+        }
+
+        .breadcumb-wrapper .breadcumb-title {
+            font-size: 32px !important;
+            line-height: 1.3 !important;
+        }
+
+        @media (max-width: 991px) {
+            .breadcumb-wrapper {
+                background-size: cover !important;
+                padding: 60px 0 !important;
+            }
+
+            .breadcumb-wrapper .breadcumb-title {
+                font-size: 24px !important;
+            }
         }
     </style>
 @endsection
@@ -20,7 +45,7 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/ATS-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
-            <h1 class="breadcumb-title">Automated Testing System (ATS)</h1>
+            <h1 class="breadcumb-title">Automated Testing <br> System (ATS)</h1>
             <ul class="breadcumb-menu">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li>ATS</li>
@@ -32,14 +57,22 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automated-Testing-System-project.png') }}" alt="Service Image" style="max-width: 60%; display: block; margin: 0 auto; border-radius: 10px;" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Automated-Testing-System-project.png') }}"
+                        alt="Service Image" style="max-width: 60%; display: block; margin: 0 auto; border-radius: 10px;" />
                     <div style="max-width: 80%; margin: 0 auto;">
                         <h3 class="single-title">
                             About Automated Testing System (ATS)
                         </h3>
                         <div class="service-content">
                             <p class="mb-20 text-justify">
-                                This government-approved, Automated Testing System (ATS) driven by advanced technology is a wholesome setup that ensures all the vehicles on the road are safe and fit. It is a high potential solution to combat two major problems—rising road accidents due to unfit vehicles and increasing pollution caused by poor emission control. With the help of its accurate testing, ATS ensures that every vehicle meets the standards set by the government. At the same time, it opens up a strong business opportunity for investors, as vehicle fitness testing is now mandatory and demand will only grow. Let’s root for a system that supports safer roads, cleaner air, and a scalable, future-ready business.
+                                This government-approved, Automated Testing System (ATS) driven by advanced technology is a
+                                wholesome setup that ensures all the vehicles on the road are safe and fit. It is a high
+                                potential solution to combat two major problems—rising road accidents due to unfit vehicles
+                                and increasing pollution caused by poor emission control. With the help of its accurate
+                                testing, ATS ensures that every vehicle meets the standards set by the government. At the
+                                same time, it opens up a strong business opportunity for investors, as vehicle fitness
+                                testing is now mandatory and demand will only grow. Let’s root for a system that supports
+                                safer roads, cleaner air, and a scalable, future-ready business.
                             </p>
                         </div>
                     </div>
@@ -57,10 +90,12 @@
                                     <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
+                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and
+                                        Testing Centre (ADTTC)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
+                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking
+                                        Management (STPMS)</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,8 +103,8 @@
                             <div class="offer-banner">
                                 <div class="banner-logo">
                                     <div class="th-video01 wow fadeInLeft">
-                                        <a href="{{ url('assets/video/ATS-Video.mp4') }}" class="play-btn style2 popup-video"><i
-                                                class="fas fa-play"></i></a>
+                                        <a href="{{ url('assets/video/ATS-Video.mp4') }}"
+                                            class="play-btn style2 popup-video"><i class="fas fa-play"></i></a>
                                     </div>
                                     <img src="{{ asset('assets/img/E-vahan-logo.webp') }}" alt="E-vahan" />
                                 </div>
@@ -89,7 +124,15 @@
                     </h4>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            ATS is driven by a problem solving approach. We focus on building a reliable, eco-friendly, and efficient vehicle testing system using advanced technology. We provide complete support—from setting up the infrastructure and installing machinery to getting approvals and running operations smoothly. The system is thoughtfully designed to reduce emissions, improve vehicle performance, and promote better vehicle usage. By making testing more accurate and accessible, we help in lowering pollution levels and protecting the environment. At the same time, we ensure that investors get a structured and sustainable business model with long-term growth. The goal is clear—create a balance between business success and environmental responsibility while contributing to a safer transport system.
+                            ATS is driven by a problem solving approach. We focus on building a reliable, eco-friendly, and
+                            efficient vehicle testing system using advanced technology. We provide complete support—from
+                            setting up the infrastructure and installing machinery to getting approvals and running
+                            operations smoothly. The system is thoughtfully designed to reduce emissions, improve vehicle
+                            performance, and promote better vehicle usage. By making testing more accurate and accessible,
+                            we help in lowering pollution levels and protecting the environment. At the same time, we ensure
+                            that investors get a structured and sustainable business model with long-term growth. The goal
+                            is clear—create a balance between business success and environmental responsibility while
+                            contributing to a safer transport system.
                         </p>
                     </div>
                 </div>
@@ -101,10 +144,13 @@
                     </h4>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            Even well-maintained vehicles can deteriorate over time, exceeding emission norms and posing safety risks. ATS
-                            identifies these issues early on, allowing you to address them before they become more significant problems.
+                            Even well-maintained vehicles can deteriorate over time, exceeding emission norms and posing
+                            safety risks. ATS
+                            identifies these issues early on, allowing you to address them before they become more
+                            significant problems.
                             Regular
-                            testing also ensures your car meets legal requirements, preventing penalties and keeping you compliant.
+                            testing also ensures your car meets legal requirements, preventing penalties and keeping you
+                            compliant.
                         </p>
                     </div>
                 </div>
@@ -214,7 +260,8 @@
                     </div>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            We don't just test, we guide. Our team interprets the results, explains any issues, and recommends appropriate repairs
+                            We don't just test, we guide. Our team interprets the results, explains any issues, and
+                            recommends appropriate repairs
                             or maintenance. We also share helpful tips to keep your car in top shape between tests.
                         </p>
                     </div>
@@ -239,10 +286,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Installation and integration of vehicle inspection equipment.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Installation and integration of vehicle inspection
+                                                equipment.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Designing and implementing an ATS layout for seamless operations.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Designing and implementing an ATS layout for
+                                                seamless operations.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -253,10 +304,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Sourcing and installation of state-of-the-art testing equipment.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Sourcing and installation of state-of-the-art
+                                                testing equipment.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Calibration and testing of equipment to ensure accuracy and reliability.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Calibration and testing of equipment to ensure
+                                                accuracy and reliability.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -267,10 +322,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Ensuring adherence to regulatory standards and guidelines.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Ensuring adherence to regulatory standards and
+                                                guidelines.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">System testing and validation to ensure smooth operation and compliance.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">System testing and validation to ensure smooth
+                                                operation and compliance.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -281,10 +340,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Capacity-building initiatives to enhance the skills and knowledge of personnel.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Capacity-building initiatives to enhance the
+                                                skills and knowledge of personnel.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Continuous training updates to keep staff informed about the latest technologies.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Continuous training updates to keep staff informed
+                                                about the latest technologies.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -295,10 +358,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Provision of ongoing operational support and maintenance services.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Provision of ongoing operational support and
+                                                maintenance services.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Regular inspections and calibration of equipment to maintain accuracy.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Regular inspections and calibration of equipment
+                                                to maintain accuracy.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -309,20 +376,28 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Implementation of eco-friendly practices in ATS operations.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Implementation of eco-friendly practices in ATS
+                                                operations.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Minimization of environmental impact through efficient resource utilization.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Minimization of environmental impact through
+                                                efficient resource utilization.</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <p class="mt-30 mb-30 text-justify">
-                            Setting up an Automated Testing System (ATS) requires meticulous planning, execution, and ongoing support to ensure its
-                            effectiveness and efficiency in vehicle testing and inspection processes. By focusing on infrastructure development,
-                            equipment procurement, regulatory compliance, training, support services, customer satisfaction, and environmental
-                            considerations, we aim to deliver a comprehensive ATS solution that meets the needs of our clients and contributes to
+                            Setting up an Automated Testing System (ATS) requires meticulous planning, execution, and
+                            ongoing support to ensure its
+                            effectiveness and efficiency in vehicle testing and inspection processes. By focusing on
+                            infrastructure development,
+                            equipment procurement, regulatory compliance, training, support services, customer satisfaction,
+                            and environmental
+                            considerations, we aim to deliver a comprehensive ATS solution that meets the needs of our
+                            clients and contributes to
                             safer, cleaner roads for all.
                         </p>
                     </div>
@@ -339,8 +414,9 @@
                 <h2 class="sec-title">Automated Testing System Gallery</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4"
+                data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1"
+                data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -448,8 +524,8 @@
                 </p>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3"
+                data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -660,16 +736,16 @@
                             </div>
                         </div>
                         <!-- <div class="info-card pl-20">
-                                    <div class="info-card_icon">
-                                      <i class="fa-sharp fa-thin fa-phone-volume"></i>
-                                    </div>
-                                    <div class="info-card_content">
-                                      <p class="info-card_text">Call Now:</p>
-                                      <a href="tel:+919855955959" class="info-card_link"
-                                        >+91 9855955959</a
-                                      >
-                                    </div>
-                                  </div> -->
+                                                <div class="info-card_icon">
+                                                  <i class="fa-sharp fa-thin fa-phone-volume"></i>
+                                                </div>
+                                                <div class="info-card_content">
+                                                  <p class="info-card_text">Call Now:</p>
+                                                  <a href="tel:+919855955959" class="info-card_link"
+                                                    >+91 9855955959</a
+                                                  >
+                                                </div>
+                                              </div> -->
                     </div>
                     <div class="about-quote d-flex justify-content-center justify-content-lg-start">
                         <div class="info-card w-100 ">
@@ -689,7 +765,8 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area,
+                                    Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -719,13 +796,13 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="name"
-                                    placeholder="Enter Your Name" required />
+                                <input type="text" class="form-control" name="name" placeholder="Enter Your Name"
+                                    required />
                                 <i class="fal fa-user"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email"
-                                    placeholder="Email Address" required />
+                                <input type="email" class="form-control" name="email" placeholder="Email Address"
+                                    required />
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="form-group col-md-6">
@@ -734,8 +811,8 @@
                                 <i class="fa-light fa-phone"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="location"
-                                    placeholder="Enter Address" required />
+                                <input type="text" class="form-control" name="location" placeholder="Enter Address"
+                                    required />
                                 <i class="fa-sharp fa-light fa-location-dot"></i>
                             </div>
                             <div class="form-group col-12">
@@ -756,7 +833,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message" required></textarea>
+                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message"
+                                    required></textarea>
                                 <i class="fal fa-comment"></i>
                             </div>
                             <div class="form-btn col-12 text-center mb-20">

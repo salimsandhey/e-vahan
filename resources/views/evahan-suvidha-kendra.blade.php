@@ -6,19 +6,44 @@
             height: 260px;
             object-fit: cover;
         }
+
         .gallery-carousel .team-content {
             min-height: 110px;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
+
+        .breadcumb-wrapper {
+            background-size: 100% auto !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            padding: 90px 0 !important;
+            min-height: unset !important;
+        }
+
+        .breadcumb-wrapper .breadcumb-title {
+            font-size: 32px !important;
+            line-height: 1.3 !important;
+        }
+
+        @media (max-width: 991px) {
+            .breadcumb-wrapper {
+                background-size: cover !important;
+                padding: 60px 0 !important;
+            }
+
+            .breadcumb-wrapper .breadcumb-title {
+                font-size: 24px !important;
+            }
+        }
     </style>
 @endsection
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/About-Gallery-eVSK-new.jpg') }}" data-overlay="title"
-        data-opacity="2">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/About-Gallery-eVSK-new.jpg') }}"
+        data-overlay="title" data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">eVAHAN Suvidha Kendra (eVSK)</h1>
             <ul class="breadcumb-menu">
@@ -32,24 +57,29 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 14 (1).png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto; border-radius: 10px;" />
+                    <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 14 (1).png') }}" alt="Service Image"
+                        style="max-width: 80%; display: block; margin: 0 auto; border-radius: 10px;" />
                     <h3 class="single-title">
                         About eVAHAN Suvidha Kendra (eVSK)
                     </h3>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            Welcome to eVAHAN Suvidha Kendra (eVSK), a powerful opportunity for ambitious youngsters like you, who want to start your own business but don't have huge capital to invest. The best part is this golden opportunity project is backed by Government-supported initiative. These eVSK’s can be set up at petrol pumps or shops. These kendras are service points for essential vehicle-related needs like pollution checks, fitness tests of vehicles, and other necessary documentation.
+                            Welcome to eVAHAN Suvidha Kendra (eVSK), a powerful opportunity for ambitious youngsters like
+                            you, who want to start their own business but don't have huge capital to invest. The best part
+                            is this golden opportunity project is backed by Government-supported initiative. These eVSK’s
+                            can be set up at petrol pumps or shops. These kendras are service points for essential
+                            vehicle-related needs like pollution checks, fitness tests of vehicles, and other necessary
+                            documentation.
+
+                            It’s not just about starting a business—it’s more about becoming a part of a system that solves
+                            two major problems of economy and ecosystem. With eVSK, you get a chance to build a stable
+                            income, be your own boss, and contribute to the environment as a leader for a greener
+                            environment by ensuring vehicles on the road meet required standards.
+
                         </p>
                     </div>
 
-                    <h4 class="single-title">
-                        Our Approach:
-                    </h4>
-                    <div class="service-content">
-                        <p class="mb-20 text-justify">
-                            At eVSK, our approach is built around a sense of responsibility, simplicity, and sustainability. Our agenda is to solve the two major problems: Lack of Employment Opportunities and Imbalanced Economy. We provide the support, setup, and systems you need to start and grow your centre with confidence. Using smart technology, these centres keep track of vehicle data and ensure timely checks, making the process smooth for both you and your customers.
-                        </p>
-                    </div>
+
                 </div>
                 <div class="col-lg-4 d-lg-flex align-items-center">
                     <aside class="sidebar-area">
@@ -64,10 +94,12 @@
                                     <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
+                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and
+                                        Testing Centre (ADTTC)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
+                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking
+                                        Management (STPMS)</a>
                                 </li>
                             </ul>
                         </div>
@@ -75,8 +107,8 @@
                             <div class="offer-banner">
                                 <div class="banner-logo">
                                     <div class="th-video01 wow fadeInLeft">
-                                        <a href="https://www.youtube.com/watch?v=iox_jfMV9Hk" class="play-btn style2 popup-video"><i
-                                                class="fas fa-play"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=iox_jfMV9Hk"
+                                            class="play-btn style2 popup-video"><i class="fas fa-play"></i></a>
                                     </div>
                                     <img src="{{ asset('assets/img/E-vahan-logo.webp') }}" alt="E-vahan" />
                                 </div>
@@ -87,6 +119,31 @@
                             </div>
                         </div>
                     </aside>
+                </div>
+            </div>
+            <div class="row pt-40">
+                <div class="col-lg-12">
+                    <h4 class="single-title">
+                        Our Approach:
+                    </h4>
+                    <div class="service-content">
+                        <p class="mb-20 text-justify">
+                            At eVSK, our approach is built around a sense of responsibility, simplicity, and sustainability.
+                            Our agenda is to solve the two major problems: Lack of Employment Opportunities and Imbalanced
+                            Economy. We provide the support, setup, and systems you need to start and grow your centre with
+                            confidence. Using smart technology, these centres keep track of vehicle data and ensure timely
+                            checks, making the process smooth for both you and your customers.
+
+                            We help customers keep digital copies of their driving licence, vehicle registration
+                            certificate, vehicle insurance policy, PUC certificate, and vehicle maintenance records along
+                            with warranty certificates of spare parts. It also sends reminders before due dates. This helps
+                            in keeping paperwork and vehicle fitness levels intact and ensures that vehicle certifications
+                            and fitness checks are never overdue. This means you’re not just earning—you’re creating impact.
+                            With minimal barriers and scalable growth, eVSK is designed to help you turn your
+                            entrepreneurial dreams into reality while contributing to a better future.
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,7 +167,8 @@
                 </div>
             </div>
             <div class="price-box-wrap">
-                <div class="row justify-content-center th-carousel" id="eVSKmoddels1" data-slide-show="2" data-lg-slide-show="2" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1">
+                <div class="row justify-content-center th-carousel" id="eVSKmoddels1" data-slide-show="2"
+                    data-lg-slide-show="2" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1">
                     <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
                         <div class="price-box mx-auto wow fadeInLeft"
                             data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
@@ -153,13 +211,14 @@
                                 <span>Future-Ready Business: Jobs + Pollution Control | Backed by Make in India, MSME</span>
                             </p>
                             <div class="model-download text-center d-flex justify-content-center w-100">
-                                <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel1">Download
-                                    Brochure</button>
+                                <a href="{{ asset('assets/pdf/SAKSHAM 2026.pdf') }}" download="SAKSHAM 2026.pdf"
+                                    class="about-evsk-btn th-btn style4">Download Brochure</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
-                        <div class="price-box mx-auto wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                        <div class="price-box mx-auto wow fadeInUp"
+                            data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
                             <div class="price-box_package layer-btn">Subsidy</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
@@ -197,8 +256,9 @@
                             </p>
                             <br /><br />
                             <div class="model-download text-center d-flex justify-content-center w-100">
-                                <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel2">Download
-                                    Brochure</button>
+                                <a href="{{ asset('assets/pdf/Subsidy Model 2026 (Petrol Pumps).pdf') }}"
+                                    download="Subsidy Model 2026 (Petrol Pumps).pdf"
+                                    class="about-evsk-btn th-btn style4">Download Brochure</a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +300,8 @@
                     <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-content">
                             <h3 class="single-title mb-20">Saksham Campaign</h3>
-                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">India is facing a real challenge today—lakhs of young people are
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">India is facing a
+                                real challenge today—lakhs of young people are
                                 ready to work, but the right opportunities are still limited. At the same time, crores of
                                 vehicles on the road require regular pollution checks and essential services, yet we are
                                 short with well-managed centres to meet this growing demand. The Saksham Campaign helps you
@@ -256,7 +317,8 @@
                     <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-content">
                             <h3 class="single-title mb-20">Business Model</h3>
-                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">This Model is designed to make business ownership affordable and
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">This Model is
+                                designed to make business ownership affordable and
                                 practical for youth. With a very low starting amount, government subsidy, and funding
                                 support, it removes the heavy financial burden that usually stops you from starting. Along
                                 with a ready setup, multiple income sources, and zero revenue sharing, it gives you a clear
@@ -718,9 +780,12 @@
                     <div class="title-area text-center">
                         <h2 class="sec-title">eVAHAN Suvidha Kendra Services</h2>
                         <p class="sec-text">
-                            At eVAHAN Suvidha Kendra, we're not just about providing services; we're committed to making a positive impact on the
-                            environment and leveraging technology for the benefit of our customers. The 'e' in eVAHAN symbolizes our dedication to
-                            eco-friendliness and electronic innovation. This ethos is ingrained in everything we do, from our service offerings to
+                            At eVAHAN Suvidha Kendra, we're not just about providing services; we're committed to making a
+                            positive impact on the
+                            environment and leveraging technology for the benefit of our customers. The 'e' in eVAHAN
+                            symbolizes our dedication to
+                            eco-friendliness and electronic innovation. This ethos is ingrained in everything we do, from
+                            our service offerings to
                             our meticulously designed processes.
                         </p>
                     </div>
@@ -734,8 +799,10 @@
                             <div class="service-process_num">01</div>
                             <h5 class="service-process_title">PUC Certificate</h5>
                             <p class="service-process_text01">
-                                Stay compliant with regulatory standards and reduce your environmental footprint with our hassle-free pollution check
-                                service. We'll ensure that your vehicle meets emission requirements without any unnecessary delays.
+                                Stay compliant with regulatory standards and reduce your environmental footprint with our
+                                hassle-free pollution check
+                                service. We'll ensure that your vehicle meets emission requirements without any unnecessary
+                                delays.
                             </p>
                         </div>
                     </div>
@@ -746,8 +813,10 @@
                             <div class="service-process_num">02</div>
                             <h5 class="service-process_title">Vehicle Insurance</h5>
                             <p class="service-process_text01">
-                                Protect your investment and safeguard your peace of mind with our comprehensive vehicle insurance services. From policy
-                                renewals to claims assistance, we're here to ensure that you're covered every step of the way.
+                                Protect your investment and safeguard your peace of mind with our comprehensive vehicle
+                                insurance services. From policy
+                                renewals to claims assistance, we're here to ensure that you're covered every step of the
+                                way.
                             </p>
                         </div>
                     </div>
@@ -758,7 +827,8 @@
                             <div class="service-process_num">03</div>
                             <h5 class="service-process_title">FasTag</h5>
                             <p class="service-process_text01">
-                                Say goodbye to long queues and manual toll payments. With our Fastag service, enjoy seamless and cashless transactions
+                                Say goodbye to long queues and manual toll payments. With our Fastag service, enjoy seamless
+                                and cashless transactions
                                 as you breeze through toll booths with ease.
                             </p>
                         </div>
@@ -770,7 +840,8 @@
                             <div class="service-process_num">04</div>
                             <h5 class="service-process_title">E-Challan</h5>
                             <p class="service-process_text01">
-                                Experience hassle-free traffic enforcement with our E-challan service. Our electronic system ensures swift and efficient
+                                Experience hassle-free traffic enforcement with our E-challan service. Our electronic system
+                                ensures swift and efficient
                                 processing for traffic violations or fines, promoting road safety and compliance.
                             </p>
                         </div>
@@ -782,8 +853,10 @@
                             <div class="service-process_num">05</div>
                             <h5 class="service-process_title">Vehicle Fitness Check</h5>
                             <p class="service-process_text01">
-                                Ensure your vehicle's safety with our fitness check service. Our experienced technicians conduct thorough inspections to
-                                assess crucial safety and performance parameters, providing you with peace of mind and confidence on the road.
+                                Ensure your vehicle's safety with our fitness check service. Our experienced technicians
+                                conduct thorough inspections to
+                                assess crucial safety and performance parameters, providing you with peace of mind and
+                                confidence on the road.
                             </p>
                         </div>
                     </div>
@@ -794,8 +867,10 @@
                             <div class="service-process_num">06</div>
                             <h5 class="service-process_title">Roadside Assistance</h5>
                             <p class="service-process_text01">
-                                Unexpected breakdowns or emergencies on the road can be stressful. That's where our roadside assistance team comes in.
-                                Whether you need a jump start, tyre change, or towing services, we'll be there to lend a helping hand.
+                                Unexpected breakdowns or emergencies on the road can be stressful. That's where our roadside
+                                assistance team comes in.
+                                Whether you need a jump start, tyre change, or towing services, we'll be there to lend a
+                                helping hand.
                             </p>
                         </div>
                     </div>
@@ -811,8 +886,9 @@
                 <h2 class="sec-title">eVAHAN Suvidha Kendra Gallery</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4"
+                data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1"
+                data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -944,7 +1020,7 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -970,16 +1046,16 @@
                             </div>
                         </div>
                         <!-- <div class="info-card pl-20">
-                                    <div class="info-card_icon">
-                                      <i class="fa-sharp fa-thin fa-phone-volume"></i>
-                                    </div>
-                                    <div class="info-card_content">
-                                      <p class="info-card_text">Call Now:</p>
-                                      <a href="tel:+919855955959" class="info-card_link"
-                                        >+91 9855955959</a
-                                      >
-                                    </div>
-                                  </div> -->
+                                                <div class="info-card_icon">
+                                                  <i class="fa-sharp fa-thin fa-phone-volume"></i>
+                                                </div>
+                                                <div class="info-card_content">
+                                                  <p class="info-card_text">Call Now:</p>
+                                                  <a href="tel:+919855955959" class="info-card_link"
+                                                    >+91 9855955959</a
+                                                  >
+                                                </div>
+                                              </div> -->
                     </div>
                     <div class="about-quote d-flex justify-content-center justify-content-lg-start">
                         <div class="info-card w-100 ">
@@ -999,7 +1075,8 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area,
+                                    Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -1029,13 +1106,13 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="name"
-                                    placeholder="Enter Your Name" required />
+                                <input type="text" class="form-control" name="name" placeholder="Enter Your Name"
+                                    required />
                                 <i class="fal fa-user"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email"
-                                    placeholder="Email Address" required />
+                                <input type="email" class="form-control" name="email" placeholder="Email Address"
+                                    required />
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="form-group col-md-6">
@@ -1044,8 +1121,8 @@
                                 <i class="fa-light fa-phone"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="location"
-                                    placeholder="Enter Address" required />
+                                <input type="text" class="form-control" name="location" placeholder="Enter Address"
+                                    required />
                                 <i class="fa-sharp fa-light fa-location-dot"></i>
                             </div>
                             <div class="form-group col-12">
@@ -1066,7 +1143,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message" required></textarea>
+                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message"
+                                    required></textarea>
                                 <i class="fal fa-comment"></i>
                             </div>
                             <div class="form-btn col-12 text-center mb-20">
@@ -1227,7 +1305,8 @@
             </div>
         </div>
         <div class="sec-border1" data-bg-src="{{ asset('assets/img/shape/border_1.png') }}"></div>
-    </section>    <section class="space">
+    </section>
+    <section class="space">
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title">Our Projects<span class="double-line"></span></span>
@@ -1239,8 +1318,8 @@
                 </p>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3"
+                data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">

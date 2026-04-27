@@ -6,11 +6,36 @@
             height: 260px;
             object-fit: cover;
         }
+
         .gallery-carousel .team-content {
             min-height: 110px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+
+        .breadcumb-wrapper {
+            background-size: 100% auto !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            padding: 70px 0 !important;
+            min-height: unset !important;
+        }
+
+        .breadcumb-wrapper .breadcumb-title {
+            font-size: 32px !important;
+            line-height: 1.3 !important;
+        }
+
+        @media (max-width: 991px) {
+            .breadcumb-wrapper {
+                background-size: cover !important;
+                padding: 60px 0 !important;
+            }
+
+            .breadcumb-wrapper .breadcumb-title {
+                font-size: 24px !important;
+            }
         }
     </style>
 @endsection
@@ -21,7 +46,7 @@
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">
-                Accredited Driving Training and Testing Centre (ADTTC)
+                Accredited Driving Training and <br> Testing Centre (ADTTC)
             </h1>
             <ul class="breadcumb-menu">
                 <li><a href="{{ url('/') }}">Home</a></li>
@@ -34,7 +59,9 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-8">
-                    <img class="w-100" src="{{ asset('assets/img/main-banner/Accredited-driving-training-and-testing-centre-project.png') }}" alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto; border-radius: 10px;" />
+                    <img class="w-100"
+                        src="{{ asset('assets/img/main-banner/Accredited-driving-training-and-testing-centre-project.png') }}"
+                        alt="Service Image" style="max-width: 80%; display: block; margin: 0 auto; border-radius: 10px;" />
                     {{-- <div class="th-video wow fadeInLeft">
 
                         <a href="{{ url('assets/video/about-evsk-video.mp4') }}" class="play-btn style2 popup-video"><i
@@ -45,12 +72,17 @@
                     </h3>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            At eVAHAN, everyone deserves the confidence and freedom that comes with knowing how to drive safely and responsibly. Our
-                            Accredited Driving Training and Testing Centre (ADTTC) is designed to equip you with the skills and knowledge needed to become a
+                            At eVAHAN, everyone deserves the confidence and freedom that comes with knowing how to drive
+                            safely and responsibly. Our
+                            Accredited Driving Training and Testing Centre (ADTTC) is designed to equip you with the skills
+                            and knowledge needed to become a
                             competent and responsible driver, empowering you to hit the road quickly.
-                            It is a specialized facility that offers comprehensive training programs and resources to individuals seeking to obtain
-                            driving licenses or improve their driving skills. These centers are accredited by regulatory authorities and adhere to
-                            specific standards and guidelines to ensure the quality and effectiveness of their training programs.
+                            It is a specialized facility that offers comprehensive training programs and resources to
+                            individuals seeking to obtain
+                            driving licenses or improve their driving skills. These centers are accredited by regulatory
+                            authorities and adhere to
+                            specific standards and guidelines to ensure the quality and effectiveness of their training
+                            programs.
                         </p>
                     </div>
 
@@ -68,10 +100,12 @@
                                     <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
+                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and
+                                        Testing Centre (ADTTC)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
+                                    <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking
+                                        Management (STPMS)</a>
                                 </li>
                             </ul>
                         </div>
@@ -79,8 +113,8 @@
                             <div class="offer-banner">
                                 <div class="banner-logo">
                                     <div class="th-video01 wow fadeInLeft">
-                                        <a href="{{ url('assets/video/about-evsk-video.mp4') }}" class="play-btn style2 popup-video"><i
-                                                class="fas fa-play"></i></a>
+                                        <a href="{{ url('assets/video/about-evsk-video.mp4') }}"
+                                            class="play-btn style2 popup-video"><i class="fas fa-play"></i></a>
                                     </div>
                                     <img src="{{ asset('assets/img/E-vahan-logo.webp') }}" alt="E-vahan" />
                                 </div>
@@ -105,9 +139,12 @@
                     </h3>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            At an ADTTC, learners receive theoretical and practical instruction on various aspects of driving, including traffic
-                            rules and regulations, vehicle mechanics, defensive driving techniques, and more. These centers typically offer a range
-                            of training programs tailored to different types of vehicles, driving conditions, and skill levels. There are 4 types of
+                            At an ADTTC, learners receive theoretical and practical instruction on various aspects of
+                            driving, including traffic
+                            rules and regulations, vehicle mechanics, defensive driving techniques, and more. These centers
+                            typically offer a range
+                            of training programs tailored to different types of vehicles, driving conditions, and skill
+                            levels. There are 4 types of
                             Driving Training Centers:
                         </p>
                     </div>
@@ -120,7 +157,8 @@
                                 <div class="service-feature_content">
                                     <h4 class="service-feature_title">IDTR (Institute of Driving Training & Research)</h4>
                                     <p class="service-feature_text">
-                                        Specialized institutes offering comprehensive driving training and research facilities.
+                                        Specialized institutes offering comprehensive driving training and research
+                                        facilities.
                                     </p>
                                 </div>
                             </div>
@@ -133,7 +171,8 @@
                                 <div class="service-feature_content">
                                     <h4 class="service-feature_title">RDTC (Regional Driving Training Centre)</h4>
                                     <p class="service-feature_text">
-                                        Regional centers providing driving training services tailored to local needs and regulations.
+                                        Regional centers providing driving training services tailored to local needs and
+                                        regulations.
                                     </p>
                                 </div>
                             </div>
@@ -157,9 +196,11 @@
                                     <img src="{{ asset('assets/img/icon/service_feature_1_4.svg') }}" alt="Icon" />
                                 </div>
                                 <div class="service-feature_content">
-                                    <h4 class="service-feature_title">ADTTC (Accredited Driving Training and Testing Centre)</h4>
+                                    <h4 class="service-feature_title">ADTTC (Accredited Driving Training and Testing Centre)
+                                    </h4>
                                     <p class="service-feature_text">
-                                        Accredited centers recognized for their adherence to quality standards and effective driving instruction.
+                                        Accredited centers recognized for their adherence to quality standards and effective
+                                        driving instruction.
                                     </p>
                                 </div>
                             </div>
@@ -167,8 +208,10 @@
                     </div>
                     <div class="service-content">
                         <p class="mb-20 text-justify">
-                            ADTTCs promote road safety by equipping drivers with the knowledge, skills, and attitudes necessary to navigate roads
-                            safely and responsibly. They also contribute to reducing road accidents and fatalities by fostering a culture of
+                            ADTTCs promote road safety by equipping drivers with the knowledge, skills, and attitudes
+                            necessary to navigate roads
+                            safely and responsibly. They also contribute to reducing road accidents and fatalities by
+                            fostering a culture of
                             responsible driving behavior and adherence to traffic laws.
                         </p>
                     </div>
@@ -194,10 +237,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Design and construct purpose-built training facilities tailored to your ADTTC requirements.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Design and construct purpose-built training
+                                                facilities tailored to your ADTTC requirements.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Planning and layout optimization for efficient use of space and resources.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Planning and layout optimization for efficient use
+                                                of space and resources.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -208,11 +255,15 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Sourcing and installation of essential equipment for driving instruction, including simulators, vehicles, and training
-                                            aids.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Sourcing and installation of essential equipment
+                                                for driving instruction, including simulators, vehicles, and training
+                                                aids.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Calibration and testing of equipment to meet regulatory standards and ensure optimal performance.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Calibration and testing of equipment to meet
+                                                regulatory standards and ensure optimal performance.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -220,16 +271,20 @@
                             <div class="service-process">
                                 <div class="service-process_num">03</div>
                                 <h5 class="service-process_title">Compliance and Accreditation Support</h5>
-                               <div class="text-left pl-20">
-                                <ul class="list-line">
-                                    <li>
-                                        <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Guidance on meeting regulatory requirements and accreditation standards for operating an ADTTC.</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Assistance with documentation and paperwork to streamline the accreditation process.</span>
-                                    </li>
-                                </ul>
-                            </div>
+                                <div class="text-left pl-20">
+                                    <ul class="list-line">
+                                        <li>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Guidance on meeting regulatory requirements and
+                                                accreditation standards for operating an ADTTC.</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Assistance with documentation and paperwork to
+                                                streamline the accreditation process.</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="service-process">
                                 <div class="service-process_num">04</div>
@@ -237,11 +292,15 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Design and implement specialized training programs for different vehicle types, driving conditions, and skill levels.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Design and implement specialized training programs
+                                                for different vehicle types, driving conditions, and skill levels.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Incorporation of theoretical and practical modules covering traffic rules, vehicle mechanics, defensive driving
-                                            techniques, and more.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Incorporation of theoretical and practical modules
+                                                covering traffic rules, vehicle mechanics, defensive driving
+                                                techniques, and more.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -252,10 +311,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Training programs for driving instructors to enhance their teaching skills and proficiency.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Training programs for driving instructors to
+                                                enhance their teaching skills and proficiency.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Workshops and seminars on best practices in driving instruction, communication, and customer service.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Workshops and seminars on best practices in
+                                                driving instruction, communication, and customer service.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -266,10 +329,14 @@
                                 <div class="text-left pl-20">
                                     <ul class="list-line">
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Guidance on setting up administrative processes, scheduling, and resource management for efficient ADTTC operations.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Guidance on setting up administrative processes,
+                                                scheduling, and resource management for efficient ADTTC operations.</span>
                                         </li>
                                         <li>
-                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span style="font-weight: 600;">Implementation of technology solutions for student enrollment, scheduling, and performance tracking.</span>
+                                            <i class="fa-thin fa-caret-right size-icon pr-10"></i> <span
+                                                style="font-weight: 600;">Implementation of technology solutions for student
+                                                enrollment, scheduling, and performance tracking.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -299,8 +366,9 @@
                 <h2 class="sec-title">Accredited Driving Training and Testing Centre Gallery</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4"
+                data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1"
+                data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -317,7 +385,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image01.webp') }}" alt="Gallery Image" />
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image01.webp') }}"
+                                alt="Gallery Image" />
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
@@ -330,7 +399,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image02.webp') }}" alt="Gallery Image" />
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image02.webp') }}"
+                                alt="Gallery Image" />
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
@@ -343,7 +413,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image03.webp') }}" alt="Gallery Image" />
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image03.webp') }}"
+                                alt="Gallery Image" />
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
@@ -356,7 +427,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image04.webp') }}" alt="Gallery Image" />
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image04.webp') }}"
+                                alt="Gallery Image" />
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
@@ -369,7 +441,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image05.webp') }}" alt="Gallery Image" />
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image05.webp') }}"
+                                alt="Gallery Image" />
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
@@ -381,7 +454,8 @@
                 </div>
             </div>
         </div>
-    </section>    <section class="space">
+    </section>
+    <section class="space">
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title">Our Projects<span class="double-line"></span></span>
@@ -393,8 +467,8 @@
                 </p>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3"
+                data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -605,16 +679,16 @@
                             </div>
                         </div>
                         <!-- <div class="info-card pl-20">
-                                    <div class="info-card_icon">
-                                      <i class="fa-sharp fa-thin fa-phone-volume"></i>
-                                    </div>
-                                    <div class="info-card_content">
-                                      <p class="info-card_text">Call Now:</p>
-                                      <a href="tel:+919855955959" class="info-card_link"
-                                        >+91 9855955959</a
-                                      >
-                                    </div>
-                                  </div> -->
+                                            <div class="info-card_icon">
+                                              <i class="fa-sharp fa-thin fa-phone-volume"></i>
+                                            </div>
+                                            <div class="info-card_content">
+                                              <p class="info-card_text">Call Now:</p>
+                                              <a href="tel:+919855955959" class="info-card_link"
+                                                >+91 9855955959</a
+                                              >
+                                            </div>
+                                          </div> -->
                     </div>
                     <div class="about-quote d-flex justify-content-center justify-content-lg-start">
                         <div class="info-card w-100 ">
@@ -634,7 +708,8 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area,
+                                    Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -664,13 +739,13 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="name"
-                                    placeholder="Enter Your Name" required />
+                                <input type="text" class="form-control" name="name" placeholder="Enter Your Name"
+                                    required />
                                 <i class="fal fa-user"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email"
-                                    placeholder="Email Address" required />
+                                <input type="email" class="form-control" name="email" placeholder="Email Address"
+                                    required />
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="form-group col-md-6">
@@ -679,8 +754,8 @@
                                 <i class="fa-light fa-phone"></i>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="location"
-                                    placeholder="Enter Address" required />
+                                <input type="text" class="form-control" name="location" placeholder="Enter Address"
+                                    required />
                                 <i class="fa-sharp fa-light fa-location-dot"></i>
                             </div>
                             <div class="form-group col-12">
@@ -701,7 +776,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message" required></textarea>
+                                <textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message"
+                                    required></textarea>
                                 <i class="fal fa-comment"></i>
                             </div>
                             <div class="form-btn col-12 text-center mb-20">
