@@ -91,7 +91,7 @@
                             </p>
                             <h1 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
                                 Online <span class="hero-title">Pollution Check Centre</span> &
-                                Earn Attractive Returns.
+                                Earn Attractive Returns
                             </h1>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
                                 <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
@@ -193,7 +193,7 @@
                             </p>
                             <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
                                 Our Cutting-Edge
-                                <span class="hero-title">Automated Testing Centre Solution.</span>
+                                <span class="hero-title">Automated Testing Centre Solution</span>
                             </h2>
                             <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
                                 Unparalleled setup and state-of-the-art equipment for optimal performance.
