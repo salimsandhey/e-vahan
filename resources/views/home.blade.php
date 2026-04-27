@@ -6,11 +6,68 @@
             height: 250px;
             object-fit: cover;
         }
+
         .gallery-carousel .team-content {
             min-height: 110px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+
+        @media (min-width: 992px) {
+
+            .hero-style4 h1,
+            .hero-style4 h2,
+            .hero-style4 p,
+            .hero-style4 .btn-group {
+                width: 100%;
+                display: block;
+                max-width: 100%;
+            }
+
+            .th-hero-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+            .th-hero-img img {
+                max-width: 80% !important;
+                height: auto;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .hero-slider-4 .th-hero-slide {
+                height: auto !important;
+                min-height: unset !important;
+                margin-top: 0 !important;
+                padding: 30px 0 50px 0 !important;
+            }
+
+            .th-hero-wrapper .slick-list,
+            .th-hero-wrapper .slick-track,
+            .th-hero-wrapper .slick-slide > div {
+                height: auto !important;
+                overflow: visible !important;
+            }
+
+            .th-hero-wrapper {
+                overflow: visible !important;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hero-style4 .hero-title-bl {
+                font-size: 44px !important;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .hero-style4 .hero-title-bl {
+                font-size: 58px !important;
+            }
         }
     </style>
 @endsection
@@ -18,126 +75,178 @@
 @section('content')
     <div class="th-hero-wrapper hero-slider-4 th-carousel" data-slide-show="1" data-md-slide-show="1" data-fade="true"
         data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true">
-        <div class="th-hero-slide">
-            <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Online pollution check.jpg') }}" alt="Final Hero Image" />
-            </div>
-            <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Online pollution check.jpg') }}"
-                    alt="Final Mobile Hero Image" />
-            </div>
-            <div>
-                <div class="hero-style4">
-                    <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        Start Your Own Government Approved
-                    </p>
-                    <h1 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
-                        Online <span class="hero-title">Pollution Check Centre</span> &
-                        Earn Attractive Returns.
-                    </h1>
-                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                        <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="th-hero-slide">
-            <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/stpms-bg.png') }}" alt="Final Hero Image" />
-            </div>
-            <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/stpms-bg.png') }}"
-                    alt="Final Mobile Hero Image" />
-            </div>
-            <div>
-                <div class="hero-style4">
-                    <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
-                        Smart Traffic &
-                        <span class="hero-title">Parking Management System</span> (STPMS)
-                    </h2>
-                    <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        Enabling efficient urban mobility through real-time monitoring, congestion reduction, and
-                        transparent revenue generation powered by advanced technology.
-                    </p>
-                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                        <a href="{{ url('smart-traffic-parking-management-systems') }}" class="th-btn">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="th-hero-slide">
-            <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/eVahan to operate.jpg') }}" alt="Final Hero Image" />
-            </div>
-            <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/eVahan to operate.jpg') }}"
-                    alt="Final Mobile Hero Image" />
-            </div>
-            <div>
-                <div class="hero-style4">
-                    <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
-                        eVAHAN To Operate
-                        <span class="hero-title">2000 PUC Centres</span> In Punjab
-                    </h2>
-                    <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        With High ROI Self Employment Model Supported By Government Of
-                        Punjab.
-                    </p>
-                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                        <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="th-hero-slide">
-            <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Our cutting edge.png') }}" alt="Final Hero Image" />
-            </div>
-            <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Our cutting edge.png') }}"
-                    alt="Final Mobile Hero Image" />
-            </div>
-            <div>
-                <div class="hero-style4">
-                    <h2 class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        Experience Excellence With
-                        </h1>
-                        <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
-                            Our Cutting-Edge
-                            <span class="hero-title">Automated Testing Centre Solution.</span>
-                        </h2>
-                        <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                            Unparalleled setup and state-of-the-art equipment for optimal performance.
-                        </p>
-                        <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                            <a href="{{ url('/automatic-testing-system/') }}" class="th-btn">Know More</a>
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class="th-hero-slide">
-            <div class="th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Encompassing design.png') }}" alt="Final Hero Image" />
-            </div>
-            <div class="mobile-th-hero-bg">
-                <img src="{{ asset('assets/img/main-banner/Encompassing design.png') }}"
-                    alt="Final Mobile Hero Image" />
-            </div>
-            <div>
-                <div class="hero-style4">
-                    <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        Embark on a seamless journey with our comprehensive solutions
-                    </p>
-                    <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
-                        Encompassing Design,
-                        <span class="hero-title">Equipment Installation</span>
-                    </h2>
-                    <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
-                        and Commissioning. Elevate your driving training and testing centre with our accredited expertise.
-                    </p>
 
-                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
-                        <a href="{{ url('/automatic-driving-training-centre/') }}" class="th-btn">Know More</a>
+        {{-- Slide 1: Online Pollution Check --}}
+        <div class="th-hero-slide">
+            <div class="mobile-th-hero-bg d-none">
+                <img src="{{ asset('assets/img/main-banner/online-pollution-check-small-bg.png') }}"
+                    alt="Final Mobile Hero Image" />
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-style4">
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                Start Your Own Government Approved
+                            </p>
+                            <h1 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
+                                Online <span class="hero-title">Pollution Check Centre</span> &
+                                Earn Attractive Returns.
+                            </h1>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
+                                <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <div class="th-hero-img" data-ani="slideinright" data-ani-delay="0.2s"
+                            style="display:flex; justify-content:center; align-items:center; width:100%;">
+                            <img style="max-width:80%; height:auto; display:block;"
+                                src="{{ asset('assets/img/main-banner/online-pollution-check-small-bg.png') }}"
+                                alt="Hero Image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Slide 2: STPMS --}}
+        <div class="th-hero-slide">
+            <div class="mobile-th-hero-bg d-none">
+                <img src="{{ asset('assets/img/main-banner/parking-small-bg.png') }}" alt="Final Mobile Hero Image" />
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-style4">
+                            <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
+                                Smart Traffic &
+                                <span class="hero-title">Parking Management System</span> (STPMS)
+                            </h2>
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                Enabling efficient urban mobility through real-time monitoring, congestion reduction, and
+                                transparent revenue generation powered by advanced technology.
+                            </p>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
+                                <a href="{{ url('smart-traffic-parking-management-systems') }}" class="th-btn">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <div class="th-hero-img" data-ani="slideinright" data-ani-delay="0.2s"
+                            style="display:flex; justify-content:center; align-items:center; width:100%;">
+                            <img style="max-width:80%; height:auto; display:block;"
+                                src="{{ asset('assets/img/main-banner/parking-small-bg.png') }}" alt="Hero Image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Slide 3: eVAHAN To Operate --}}
+        <div class="th-hero-slide">
+            <div class="mobile-th-hero-bg d-none">
+                <img src="{{ asset('assets/img/main-banner/evahan-to-operate-small-bg.png') }}"
+                    alt="Final Mobile Hero Image" />
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-style4">
+                            <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
+                                eVAHAN To Operate
+                                <span class="hero-title">2000 PUC Centres</span> In Punjab
+                            </h2>
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                With High ROI Self Employment Model Supported By Government Of
+                                Punjab.
+                            </p>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
+                                <a href="{{ url('about-evsk') }}" class="th-btn">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <div class="th-hero-img" data-ani="slideinright" data-ani-delay="0.2s"
+                            style="display:flex; justify-content:center; align-items:center; width:100%;">
+                            <img style="max-width:80%; height:auto; display:block;"
+                                src="{{ asset('assets/img/main-banner/evahan-to-operate-small-bg.png') }}"
+                                alt="Hero Image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Slide 4: Automated Testing --}}
+        <div class="th-hero-slide">
+            <div class="mobile-th-hero-bg d-none">
+                <img src="{{ asset('assets/img/main-banner/our-cutting-edge-small-bg.png') }}"
+                    alt="Final Mobile Hero Image" />
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-style4">
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                Experience Excellence With
+                            </p>
+                            <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
+                                Our Cutting-Edge
+                                <span class="hero-title">Automated Testing Centre Solution.</span>
+                            </h2>
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                Unparalleled setup and state-of-the-art equipment for optimal performance.
+                            </p>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
+                                <a href="{{ url('/automated-testing-system/') }}" class="th-btn">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <div class="th-hero-img" data-ani="slideinright" data-ani-delay="0.2s"
+                            style="display:flex; justify-content:center; align-items:center; width:100%;">
+                            <img style="max-width:80%; height:auto; display:block;"
+                                src="{{ asset('assets/img/main-banner/our-cutting-edge-small-bg.png') }}"
+                                alt="Hero Image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- Slide 5: Encompassing Design --}}
+        <div class="th-hero-slide">
+            <div class="mobile-th-hero-bg d-lg-none">
+                <img src="{{ asset('assets/img/main-banner/encompassing-design-small-bg.jpg') }}"
+                    alt="Final Mobile Hero Image" />
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-style4">
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                Embark on a seamless journey with our comprehensive solutions
+                            </p>
+                            <h2 class="hero-title-bl" data-ani="slideindown" data-ani-delay="0.1s">
+                                Encompassing Design,
+                                <span class="hero-title">Equipment Installation</span>
+                            </h2>
+                            <p class="hero-title-h1" data-ani="slideindown" data-ani-delay="0.1s">
+                                and Commissioning. Elevate your driving training and testing centre with our accredited
+                                expertise.
+                            </p>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.1s">
+                                <a href="{{ url('/automatic-driving-training-centre/') }}" class="th-btn">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <div class="th-hero-img" data-ani="slideinright" data-ani-delay="0.2s">
+                            <img style="max-width: 80% !important;"
+                                src="{{ asset('assets/img/main-banner/encompassing-design-small-bg.jpg') }}"
+                                alt="Hero Image" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,7 +328,7 @@
                         </div>
                         <div class="service-block_content">
                             <h3 class="service-block_title">
-                                <a href="{{ url('automatic-testing-system') }}">Automatic Testing Centre</a>
+                                <a href="{{ url('automated-testing-system') }}">Automated Testing Centre</a>
                             </h3>
                             <p class="service-block_text">
                                 Our state-of-the-art testing center ensures that your vehicle meets all mandatory
@@ -238,7 +347,7 @@
                         </div>
                         <div class="service-block_content">
                             <h3 class="service-block_title">
-                                <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving School</a>
+                                <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving School</a>
                             </h3>
                             <p class="service-block_text">
                                 Combining virtual classroom sessions with practical road experience, we equip aspiring
@@ -342,14 +451,17 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="service-block shadow wow fadeInDown">
                         <div class="service-block_img">
-                            <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}" alt="service image" style="height: 100px; object-fit: cover;" />
+                            <img src="{{ asset('assets/img/main-banner/Parking.jpg') }}" alt="service image"
+                                style="height: 100px; object-fit: cover;" />
                         </div>
                         <div class="service-block_content">
                             <h3 class="service-block_title">
-                                <a href="{{ url('smart-traffic-parking-management-systems') }}">Parking Management (STPMS)</a>
+                                <a href="{{ url('smart-traffic-parking-management-systems') }}">Parking Management
+                                    (STPMS)</a>
                             </h3>
                             <p class="service-block_text">
-                                Smart Traffic and Parking Management Systems are intelligent, technology-enabled solutions that help facilitate smoother automobile traffic, and simplify parking.
+                                Smart Traffic and Parking Management Systems are intelligent, technology-enabled solutions
+                                that help facilitate smoother automobile traffic, and simplify parking.
                             </p>
                         </div>
                     </div>
@@ -400,7 +512,8 @@
         }
 
         .evsk-state-carousel .slick-center .service-list {
-            transform: scale(1.08); /* Subtle zoom for the center card */
+            transform: scale(1.08);
+            /* Subtle zoom for the center card */
             opacity: 1;
             box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
             border: 1px solid var(--theme-color);
@@ -467,7 +580,7 @@
             background-color: #f0f0f0;
             color: var(--title-color) !important;
         }
-        
+
         /* The active tab keeps the dark background from the :before element */
         .state-tab-btn.active {
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -585,10 +698,10 @@
             <ul class="nav nav-pills justify-content-center mb-50" id="evskTabs" role="tablist" style="border: none;">
                 @foreach($centersByState as $state => $centers)
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link state-tab-btn {{ $loop->first ? 'active' : '' }}" 
-                            id="tab-{{ \Illuminate\Support\Str::slug($state) }}" 
-                            data-bs-toggle="pill" data-bs-target="#content-{{ \Illuminate\Support\Str::slug($state) }}" 
-                            type="button" role="tab" aria-controls="content-{{ \Illuminate\Support\Str::slug($state) }}" 
+                        <button class="nav-link state-tab-btn {{ $loop->first ? 'active' : '' }}"
+                            id="tab-{{ \Illuminate\Support\Str::slug($state) }}" data-bs-toggle="pill"
+                            data-bs-target="#content-{{ \Illuminate\Support\Str::slug($state) }}" type="button" role="tab"
+                            aria-controls="content-{{ \Illuminate\Support\Str::slug($state) }}"
                             aria-selected="{{ $loop->first ? 'true' : 'false' }}">
                             {{ $state }}
                         </button>
@@ -598,12 +711,13 @@
 
             <div class="tab-content" id="evskTabsContent">
                 @foreach($centersByState as $state => $centers)
-                    <div class="tab-pane fade show {{ $loop->first ? 'active' : '' }}" id="content-{{ \Illuminate\Support\Str::slug($state) }}" role="tabpanel">
+                    <div class="tab-pane fade show {{ $loop->first ? 'active' : '' }}"
+                        id="content-{{ \Illuminate\Support\Str::slug($state) }}" role="tabpanel">
                         <div class="row slider-shadow th-carousel evsk-state-carousel" data-slide-show="3"
                             data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1"
                             data-arrows="true" data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true"
-                            data-lg-center-mode="true" data-md-center-mode="true" data-sm-center-mode="true" data-xs-center-mode="true"
-                            data-infinite="true">
+                            data-lg-center-mode="true" data-md-center-mode="true" data-sm-center-mode="true"
+                            data-xs-center-mode="true" data-infinite="true">
                             @foreach($centers as $center)
                                 <div class="col-md-6 col-lg-4 col-12">
                                     <div class="service-list">
@@ -623,9 +737,9 @@
             </div>
         </div>
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('DOMContentLoaded', function () {
                 var tabEl = document.querySelectorAll('button[data-bs-toggle="pill"]')
-                tabEl.forEach(function(el) {
+                tabEl.forEach(function (el) {
                     el.addEventListener('shown.bs.tab', function (event) {
                         $('.th-carousel').slick('setPosition');
                     })
@@ -639,7 +753,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 pe-xl-5 mb-5 mb-lg-0">
                     <div class="th-video wow fadeInLeft">
-                        <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 1 (1).png') }}" alt="about" style="height: 100%; object-fit: cover;" />
+                        <img class="w-100" src="{{ asset('assets/img/main-banner/Frame 1 (1).png') }}" alt="about"
+                            style="height: 100%; object-fit: cover;" />
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight pe-sm-5">
@@ -990,8 +1105,9 @@
                 </div>
             </div>
             <div class="price-box-wrap">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                <div class="row justify-content-center th-carousel" id="eVSKmoddels1" data-slide-show="2"
+                    data-lg-slide-show="2" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
                         <div class="price-box mx-auto wow fadeInLeft"
                             data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
                             <div class="price-box_package layer-btn">Saksham Campaign</div>
@@ -1032,14 +1148,15 @@
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
                                 <span>Future-Ready Business: Jobs + Pollution Control | Backed by Make in India, MSME</span>
                             </p>
-                            <div class="model-download center">
+                            <div class="model-download text-center d-flex justify-content-center w-100">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel1">Download
                                     Brochure</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
-                        <div class="price-box mx-auto wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
+                        <div class="price-box mx-auto wow fadeInUp"
+                            data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
                             <div class="price-box_package layer-btn">Subsidy</div>
                             <p class="price-box_text">Key Highlights</p>
                             <p class="price-box_info">
@@ -1076,7 +1193,7 @@
                                 <span>Trusted Partners: HP/IOCL/BPCL (locations);</span>
                             </p>
                             <br /><br />
-                            <div class="model-download center">
+                            <div class="model-download text-center d-flex justify-content-center w-100">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel2">Download
                                     Brochure</button>
                             </div>
@@ -1098,6 +1215,50 @@
             </div>
         </div>
     </section>
+
+    <section class="space bg-smoke" id="detailed-business-models">
+        <div class="container">
+            <div class="title-area text-center">
+                <h2 class="sec-title">Deep Dive into Business Models</h2>
+            </div>
+            <div class="row">
+                <!-- Part 1: Saksham Campaign -->
+                <div class="col-lg-6 mb-30">
+                    <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-content">
+                            <h3 class="single-title mb-20">Saksham Campaign</h3>
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">India is facing a
+                                real challenge today—lakhs of young people are
+                                ready to work, but the right opportunities are still limited. At the same time, crores of
+                                vehicles on the road require regular pollution checks and essential services, yet we are
+                                short with well-managed centres to meet this growing demand. The Saksham Campaign helps you
+                                start your own eVAHAN Suvidha Kendra at petrol pumps and nearby locations, turning a daily
+                                necessity into a reliable business opportunity. With government support and a ready customer
+                                base, it removes the usual struggles of starting from scratch. This is your chance to step
+                                forward, take control, and build a future that works for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Part 2: Business Model -->
+                <div class="col-lg-6 mb-30">
+                    <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-content">
+                            <h3 class="single-title mb-20">Business Model</h3>
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">This Model is
+                                designed to make business ownership affordable and
+                                practical for youth. With a very low starting amount, government subsidy, and funding
+                                support, it removes the heavy financial burden that usually stops you from starting. Along
+                                with a ready setup, multiple income sources, and zero revenue sharing, it gives you a clear
+                                and structured way to earn from day one without confusion or hidden challenges. Stop waiting
+                                and start building something of your own.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section>
         <div id="popupOverlay1" class="overlay-1">
@@ -1711,13 +1872,14 @@
                 <div class="col-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
-                            <a href="{{ url('automatic-testing-system') }}">
-                                <img src="{{ asset('assets/img/main-banner/Automatic test system project .png') }}" alt="Team" />
+                            <a href="{{ url('automated-testing-system') }}">
+                                <img src="{{ asset('assets/img/main-banner/Automated-Testing-System-project.png') }}"
+                                    alt="Team" />
                             </a>
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
-                                <a href="{{ url('automatic-testing-system') }}">Automatic Test System</a>
+                                <a href="{{ url('automated-testing-system') }}">Automated Testing System</a>
                             </h3>
                         </div>
                     </div>
@@ -1726,12 +1888,14 @@
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
                             <a href="{{ url('automatic-driving-training-centre') }}">
-                                <img src="{{ asset('assets/img/main-banner/Automatic driving training centre project .png') }}" alt="Team" />
+                                <img src="{{ asset('assets/img/main-banner/Accredited-driving-training-and-testing-centre-project.png') }}"
+                                    alt="Team" />
                             </a>
                         </div>
                         <div class="team-content">
                             <h3 class="team-title">
-                                <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training
+                                <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and
+                                    Testing Centre
                                     Centre</a>
                             </h3>
                         </div>
@@ -1756,10 +1920,6 @@
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
                         <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
-                        <p class="hero-para">
-                            (A Joint Venture of VKARE Retail Ventures Private Limited and
-                            FDL Services, United Kingdom)
-                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-40 mb-lg-0 wow fadeInLeft">
@@ -1775,16 +1935,16 @@
                             </div>
                         </div>
                         <!-- <div class="info-card pl-20">
-                                                                 <div class="info-card_icon">
-                                                                   <i class="fa-sharp fa-thin fa-phone-volume"></i>
-                                                                 </div>
-                                                                 <div class="info-card_content">
-                                                                   <p class="info-card_text">Call Now:</p>
-                                                                   <a href="tel:+919855955959" class="info-card_link"
-                                                                     >+91 9855955959</a
-                                                                   >
-                                                                 </div>
-                                                               </div> -->
+                                                                     <div class="info-card_icon">
+                                                                       <i class="fa-sharp fa-thin fa-phone-volume"></i>
+                                                                     </div>
+                                                                     <div class="info-card_content">
+                                                                       <p class="info-card_text">Call Now:</p>
+                                                                       <a href="tel:+919855955959" class="info-card_link"
+                                                                         >+91 9855955959</a
+                                                                       >
+                                                                     </div>
+                                                                   </div> -->
                     </div>
                     <div class="about-quote d-flex justify-content-center justify-content-lg-start">
                         <div class="info-card w-100 ">
@@ -1804,7 +1964,8 @@
                             </div>
                             <div class="info-card_content">
                                 <p class="info-card_text">Corporate Office:</p>
-                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area, Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
+                                <a href="{{ url('#') }}" class="info-card_link">G-04, Ground Floor, D-141 Industrial Area,
+                                    Phase 7, Sector 73, S.A.S. Nagar, Mohali-160055(Punjab) INDIA</a>
                             </div>
                         </div>
                     </div>
@@ -1858,11 +2019,11 @@
                                         Select eVAHAN Services
                                     </option>
                                     <option value="eVAHAN Suvidha Kendra">eVAHAN Suvidha Kendra (eVSK)</option>
-                                    <option value="Automatic Testing System">
-                                        Automatic Testing System (ATS)
+                                    <option value="Automated Testing System">
+                                        Automated Testing System (ATS)
                                     </option>
-                                    <option value="Automatic Driving Training Centre">
-                                        Automatic Driving Training Centre (ADTC)
+                                    <option value="Accredited Driving Training and Testing Centre">
+                                        Accredited Driving Training and Testing Centre (ADTTC)
                                     </option>
                                 </select>
                             </div>
@@ -1898,8 +2059,8 @@
                 </p>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3"
+                data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
                         <div class="team-img">
@@ -2093,123 +2254,124 @@
                 <h2 class="sec-title">eVAHAN Gallery</h2>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+            <div class="row slider-shadow th-carousel home-project-carousel gallery-carousel" data-slide-show="4"
+                data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1"
+                data-arrows="true">
                 <!-- 
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-1.webp') }}" alt="Team" />
-                        </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-1.webp') }}" alt="Team" />
+                            </div>
 
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                            </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">Jaiswal Filling Station</span>
-                                <h3 class="team-title1">Phagwara</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-2.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                            </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">COCO 33</span>
-                                <h3 class="team-title1">Chandigarh</h3>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">Jaiswal Filling Station</span>
+                                    <h3 class="team-title1">Phagwara</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-3.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-2.webp') }}" alt="Team" />
                             </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">Sushma Fuels</span>
-                                <h3 class="team-title1">Kharar</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-4.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                            </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">Petro Junction</span>
-                                <h3 class="team-title1">Mohali</h3>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">COCO 33</span>
+                                    <h3 class="team-title1">Chandigarh</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-5.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-3.webp') }}" alt="Team" />
                             </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">Khaira Filling Station</span>
-                                <h3 class="team-title1">Jalandhar</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-6.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                            </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">Gill Filling Station</span>
-                                <h3 class="team-title1">Dasuya</h3>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">Sushma Fuels</span>
+                                    <h3 class="team-title1">Kharar</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="team-grid wow fadeInUp">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/img/main-banner/gallery-sec-7.webp') }}" alt="Team" />
-                        </div>
-                        <div class="service-list-box">
-                            <div class="service-list_icon">
-                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-4.webp') }}" alt="Team" />
                             </div>
-                            <div class="service-list_content">
-                                <span class="service-list_text">A+ Pollution Check Center</span>
-                                <h3 class="team-title1">Kapurthala</h3>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">Petro Junction</span>
+                                    <h3 class="team-title1">Mohali</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-5.webp') }}" alt="Team" />
+                            </div>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">Khaira Filling Station</span>
+                                    <h3 class="team-title1">Jalandhar</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-6.webp') }}" alt="Team" />
+                            </div>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">Gill Filling Station</span>
+                                    <h3 class="team-title1">Dasuya</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-grid wow fadeInUp">
+                            <div class="team-img">
+                                <img src="{{ asset('assets/img/main-banner/gallery-sec-7.webp') }}" alt="Team" />
+                            </div>
+                            <div class="service-list-box">
+                                <div class="service-list_icon">
+                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                </div>
+                                <div class="service-list_content">
+                                    <span class="service-list_text">A+ Pollution Check Center</span>
+                                    <h3 class="team-title1">Kapurthala</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     -->
 
                 <!-- New Gallery Cards -->
                 <div class="col-md-6 col-lg-4">

@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Contact-Us-banner.webp') }}" data-overlay="title"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Contact-us-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">Contact</h1>
@@ -63,11 +63,11 @@
                                             Select eVAHAN Services
                                         </option>
                                         <option value="eVAHAN Suvidha Kendra">eVAHAN Suvidha Kendra (eVSK)</option>
-                                        <option value="Automatic Testing System">
-                                            Automatic Testing System (ATS)
+                                        <option value="Automated Testing System">
+                                            Automated Testing System (ATS)
                                         </option>
-                                        <option value="Automatic Driving Training Centre">
-                                            Automatic Driving Training Centre (ADTC)
+                                        <option value="Accredited Driving Training and Testing Centre">
+                                            Accredited Driving Training and Testing Centre (ADTTC)
                                         </option>
                                     </select>
                                 </div>

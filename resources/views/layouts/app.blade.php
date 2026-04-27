@@ -59,6 +59,8 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    @yield('style')
+
 </head>
 
 <body class="home4">

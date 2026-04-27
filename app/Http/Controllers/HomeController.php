@@ -41,10 +41,10 @@ class HomeController extends Controller
         return view('evahan-suvidha-kendra', compact('title'));
     }
 
-    public function automatic_testing_system()
+    public function automated_testing_system()
     {
-        $title = 'Automatic Test System (ATS)';
-        return view('automatic-testing-system', compact('title'));
+        $title = 'Automated Testing System (ATS)';
+        return view('automated-testing-system', compact('title'));
     }
 
     public function automatic_driving_training_centre()

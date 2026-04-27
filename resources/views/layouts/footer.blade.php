@@ -48,9 +48,9 @@
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <li><a href="{{ url('evahan-suvidha-kendra') }}">eVAHAN Suvidha Kendra</a></li>
-                                <li><a href="{{ url('automatic-testing-system') }}">Automatic Testing System</a></li>
+                                <li><a href="{{ url('automated-testing-system') }}">Automated Testing System</a></li>
                                 <li>
-                                    <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre</a>
+                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre</a>
                                 </li>
                                 <li><a href="{{ url('privacy-policy') }}">Privacy Policy</a></li>
                                 <li>

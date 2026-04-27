@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Special-Projects-banner.webp') }}" data-overlay="title"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Blog-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">{{ $getRecord->title }}</h1>

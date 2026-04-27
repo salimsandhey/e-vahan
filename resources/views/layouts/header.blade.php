@@ -19,10 +19,10 @@
                             <a href="{{ url('evahan-suvidha-kendra') }}">eVAHAN Suvidha Kendra (eVSK)</a>
                         </li>
                         <li>
-                            <a href="{{ url('automatic-testing-system') }}">Automatic Testing System (ATS)</a>
+                            <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                         </li>
                         <li>
-                            <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
+                            <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
                         </li>
                         <li>
                             <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
@@ -106,10 +106,10 @@
                                                     <a href="{{ url('evahan-suvidha-kendra') }}">eVAHAN Suvidha Kendra (eVSK)</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ url('automatic-testing-system') }}">Automatic Testing System (ATS)</a>
+                                                    <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
+                                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>

@@ -17,7 +17,7 @@
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Services-banner.webp') }}" data-overlay="title"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/About-Gallery-eVSK-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">eVAHAN Suvidha Kendra (eVSK)</h1>
@@ -61,10 +61,10 @@
                                     <!-- <span>(8)</span> -->
                                 </li>
                                 <li>
-                                    <a href="{{ url('automatic-testing-system') }}">Automatic Testing System (ATS)</a>
+                                    <a href="{{ url('automated-testing-system') }}">Automated Testing System (ATS)</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('automatic-driving-training-centre') }}">Automatic Driving Training Centre (ADTC)</a>
+                                    <a href="{{ url('automatic-driving-training-centre') }}">Accredited Driving Training and Testing Centre (ADTTC)</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('smart-traffic-parking-management-systems') }}">Smart Traffic & Parking Management (STPMS)</a>
@@ -110,8 +110,8 @@
                 </div>
             </div>
             <div class="price-box-wrap">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                <div class="row justify-content-center th-carousel" id="eVSKmoddels1" data-slide-show="2" data-lg-slide-show="2" data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
                         <div class="price-box mx-auto wow fadeInLeft"
                             data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
                             <div class="price-box_package layer-btn">Saksham Campaign</div>
@@ -152,13 +152,13 @@
                                 <i class="fa-thin fa-check-to-slot icon-space"></i>
                                 <span>Future-Ready Business: Jobs + Pollution Control | Backed by Make in India, MSME</span>
                             </p>
-                            <div class="model-download center">
+                            <div class="model-download text-center d-flex justify-content-center w-100">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel1">Download
                                     Brochure</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6 col-md-6 mb-40">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-40">
                         <div class="price-box mx-auto wow fadeInUp" data-bg-src="{{ asset('assets/img/bg/price-box-bg.jpg') }}">
                             <div class="price-box_package layer-btn">Subsidy</div>
                             <p class="price-box_text">Key Highlights</p>
@@ -196,7 +196,7 @@
                                 <span>Trusted Partners: HP/IOCL/BPCL (locations);</span>
                             </p>
                             <br /><br />
-                            <div class="model-download center">
+                            <div class="model-download text-center d-flex justify-content-center w-100">
                                 <button class="about-evsk-btn th-btn style4" id="openPopupButtonModel2">Download
                                     Brochure</button>
                             </div>
@@ -228,6 +228,48 @@
             </div>
         </div>
     </section>
+
+    <section class="space bg-smoke" id="detailed-business-models">
+        <div class="container">
+            <div class="title-area text-center">
+                <h2 class="sec-title">Deep Dive into Business Models</h2>
+            </div>
+            <div class="row">
+                <!-- Part 1: Saksham Campaign -->
+                <div class="col-lg-6 mb-30">
+                    <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-content">
+                            <h3 class="single-title mb-20">Saksham Campaign</h3>
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">India is facing a real challenge today—lakhs of young people are
+                                ready to work, but the right opportunities are still limited. At the same time, crores of
+                                vehicles on the road require regular pollution checks and essential services, yet we are
+                                short with well-managed centres to meet this growing demand. The Saksham Campaign helps you
+                                start your own eVAHAN Suvidha Kendra at petrol pumps and nearby locations, turning a daily
+                                necessity into a reliable business opportunity. With government support and a ready customer
+                                base, it removes the usual struggles of starting from scratch. This is your chance to step
+                                forward, take control, and build a future that works for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Part 2: Business Model -->
+                <div class="col-lg-6 mb-30">
+                    <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-content">
+                            <h3 class="single-title mb-20">Business Model</h3>
+                            <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">This Model is designed to make business ownership affordable and
+                                practical for youth. With a very low starting amount, government subsidy, and funding
+                                support, it removes the heavy financial burden that usually stops you from starting. Along
+                                with a ready setup, multiple income sources, and zero revenue sharing, it gives you a clear
+                                and structured way to earn from day one without confusion or hidden challenges. Stop waiting
+                                and start building something of your own.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section>
         <div id="popupOverlay1" class="overlay-1">
@@ -913,10 +955,6 @@
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
                         <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
-                        <p class="hero-para">
-                            (A Joint Venture of VKARE Retail Ventures Private Limited and
-                            FDL Services, United Kingdom)
-                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-40 mb-lg-0 wow fadeInLeft">
@@ -1016,11 +1054,11 @@
                                         Select eVAHAN Services
                                     </option>
                                     <option value="eVAHAN Suvidha Kendra">eVAHAN Suvidha Kendra (eVSK)</option>
-                                    <option value="Automatic Testing System">
-                                        Automatic Testing System (ATS)
+                                    <option value="Automated Testing System">
+                                        Automated Testing System (ATS)
                                     </option>
-                                    <option value="Automatic Driving Training Centre">
-                                        Automatic Driving Training Centre (ADTC)
+                                    <option value="Accredited Driving Training and Testing Centre">
+                                        Accredited Driving Training and Testing Centre (ADTTC)
                                     </option>
                                     <option value="Smart Traffic and Parking Management Systems">
                                         Smart Traffic and Parking Management Systems (STPMS)
@@ -1189,7 +1227,207 @@
             </div>
         </div>
         <div class="sec-border1" data-bg-src="{{ asset('assets/img/shape/border_1.png') }}"></div>
+    </section>    <section class="space">
+        <div class="container">
+            <div class="title-area text-center">
+                <span class="sub-title">Our Projects<span class="double-line"></span></span>
+                <h2 class="sec-title">eVAHAN Special Projects</h2>
+                <p class="px-30p">
+                    Self-Employment Workshops in association with State governments are
+                    organise at various District Employment Offices to appraise the
+                    youth about opportunities in automobile sector.
+                </p>
+                <br />
+            </div>
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
+                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-1.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Jalandhar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-2.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Ludhiana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-3.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Amritsar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-4.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">SAS Nagar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-5.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Gurdaspur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-6.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Pathankot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-1.jpeg') }}" alt="Our Project 1" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-2.jpeg') }}" alt="Our Project 2" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-3.jpeg') }}" alt="Our Project 3" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-4.jpeg') }}" alt="Our Project 4" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-5.jpeg') }}" alt="Our Project 5" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-6.jpeg') }}" alt="Our Project 6" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-7.jpeg') }}" alt="Our Project 7" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-8.jpeg') }}" alt="Our Project 8" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+
 
     <section class="space-60 position-relative">
         <div class="space-bottom overflow-hidden">

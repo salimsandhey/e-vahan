@@ -29,7 +29,7 @@ Route::get('/', [HomeController::class, 'home']);
 Route::get('about-evsk', [HomeController::class, 'about_evsk']);
 Route::get('services', [HomeController::class, 'services']);
 Route::get('evahan-suvidha-kendra', [HomeController::class, 'evahan_suvidha_kendra']);
-Route::get('automatic-testing-system', [HomeController::class, 'automatic_testing_system']);
+Route::get('automated-testing-system', [HomeController::class, 'automated_testing_system']);
 Route::get('automatic-driving-training-centre', [HomeController::class, 'automatic_driving_training_centre']);
 Route::get('smart-traffic-parking-management-systems', [HomeController::class, 'smart_traffic_parking_management_systems']);
 

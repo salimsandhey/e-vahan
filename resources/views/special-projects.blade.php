@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Special-Projects-banner.webp') }}" data-overlay="title"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Special-Projects-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">Special Projects</h1>
@@ -159,10 +159,6 @@
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
                         <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
-                        <p class="hero-para">
-                            (A Joint Venture of VKARE Retail Ventures Private Limited and
-                            FDL Services, United Kingdom)
-                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-40 mb-lg-0 wow fadeInLeft">
@@ -295,7 +291,7 @@
                 </p>
                 <br />
             </div>
-            <div class="row slider-shadow th-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
                 data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="team-grid wow fadeInUp">
@@ -372,6 +368,110 @@
                                 <a href="{{ url('#') }}">Self Employement Camp</a>
                             </h3>
                             <span class="team-desig">Pathankot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-1.jpeg') }}" alt="Our Project 1" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-2.jpeg') }}" alt="Our Project 2" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-3.jpeg') }}" alt="Our Project 3" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-4.jpeg') }}" alt="Our Project 4" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-5.jpeg') }}" alt="Our Project 5" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-6.jpeg') }}" alt="Our Project 6" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-7.jpeg') }}" alt="Our Project 7" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-8.jpeg') }}" alt="Our Project 8" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
                         </div>
                     </div>
                 </div>

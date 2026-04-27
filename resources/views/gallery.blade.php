@@ -4,7 +4,7 @@
 
 @section('content')
     <!--==============================Breadcumb ============================= -->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/eVAHAN-Services-banner.webp') }}"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/About-Gallery-eVSK-new.jpg') }}"
         data-overlay="title" data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">Gallery</h1>
@@ -225,7 +225,7 @@
             <div class="row mt-50 mb-30">
                 <div class="col-12 title-area text-center">
                     <div class="gallery-card">
-                        <h2 class="sec-title">Automatic Test System Gallery</h2>
+                        <h2 class="sec-title">Automated Testing System Gallery</h2>
                     </div>
                 </div>
             </div>
@@ -298,7 +298,7 @@
             <div class="row mt-50 mb-30">
                 <div class="col-12 title-area text-center">
                     <div class="gallery-card">
-                        <h2 class="sec-title">Automatic Driving Training Centre Gallery</h2>
+                        <h2 class="sec-title">Accredited Driving Training and Testing Centre Gallery</h2>
                     </div>
                 </div>
             </div>
@@ -307,9 +307,9 @@
                 <div class="col-md-6 col-lg-4 filter-item cat9 cat5 cat9 cat8 cat9">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>
@@ -318,9 +318,9 @@
                     class="col-md-6 col-lg-4 filter-item <br /> <b>Warning</b>: Undefined array key 8 in <b>E:\web-dev\angfuzsoft\html\taxiar-html\build\inc\sections\gallery-sec-v3.php</b> on line <b>57</b><br />">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image01.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image01.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image01.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image01.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>
@@ -328,9 +328,9 @@
                 <div class="col-md-6 col-lg-4 filter-item cat1 cat2 cat5 cat4 cat3">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image02.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image02.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image02.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image02.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>
@@ -338,9 +338,9 @@
                 <div class="col-md-6 col-lg-4 filter-item cat9 cat5 cat9 cat8 cat9">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image03.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image03.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image03.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image03.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>
@@ -349,9 +349,9 @@
                     class="col-md-6 col-lg-4 filter-item <br /> <b>Warning</b>: Undefined array key 8 in <b>E:\web-dev\angfuzsoft\html\taxiar-html\build\inc\sections\gallery-sec-v3.php</b> on line <b>57</b><br />">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image04.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image04.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image04.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image04.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>
@@ -359,9 +359,9 @@
                 <div class="col-md-6 col-lg-4 filter-item cat1 cat2 cat5 cat4 cat3">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/main-banner/ADTC-Gallery-image05.webp') }}"
+                            <img src="{{ asset('assets/img/main-banner/ADTTC-Gallery-image05.webp') }}"
                                 alt="gallery image" />
-                            <a href="{{ url('assets/img/main-banner/ADTC-Gallery-image05.webp') }}"
+                            <a href="{{ url('assets/img/main-banner/ADTTC-Gallery-image05.webp') }}"
                                 class="icon-btn popup-image"><i class="fa-regular fa-plus"></i></a>
                         </div>
                     </div>

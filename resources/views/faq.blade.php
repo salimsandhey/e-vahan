@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/Frequently-Asked-Question-banner.webp') }}" data-overlay="title"
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/main-banner/FAQ-new.jpg') }}" data-overlay="title"
         data-opacity="2">
         <div class="container z-index-common">
             <h1 class="breadcumb-title">Frequently Asked Question</h1>
@@ -177,14 +177,14 @@
                             <div class="accordion-header" id="collapse-item-10">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10"
                                     aria-expanded="false" aria-controls="collapse-10">
-                                    Who can set up an ADTC?
+                                    Who can set up an ADTTC?
                                 </button>
                             </div>
                             <div id="collapse-10" class="accordion-collapse collapse" aria-labelledby="collapse-item-10"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p class="faq-text">
-                                        ADTCs are typically established by government authorities, large institutions, or organizations with the necessary
+                                        ADTTCs are typically established by government authorities, large institutions, or organizations with the necessary
                                         infrastructure, resources, and expertise to provide accredited driving training services.
                                     </p>
                                 </div>
@@ -194,14 +194,14 @@
                             <div class="accordion-header" id="collapse-item-11">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-11"
                                     aria-expanded="false" aria-controls="collapse-11">
-                                    What are the benefits of enrolling in a driving course at an ADTC?
+                                    What are the benefits of enrolling in a driving course at an ADTTC?
                                 </button>
                             </div>
                             <div id="collapse-11" class="accordion-collapse collapse" aria-labelledby="collapse-item-11"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p class="faq-text">
-                                        Enrolling in a driving course at an ADTC offers several benefits, including professional instruction, access to modern
+                                        Enrolling in a driving course at an ADTTC offers several benefits, including professional instruction, access to modern
                                         training facilities and equipment, and the opportunity to obtain recognized certifications or licenses.
                                     </p>
                                 </div>
@@ -211,7 +211,206 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    <section class="space">
+        <div class="container">
+            <div class="title-area text-center">
+                <span class="sub-title">Our Projects<span class="double-line"></span></span>
+                <h2 class="sec-title">eVAHAN Special Projects</h2>
+                <p class="px-30p">
+                    Self-Employment Workshops in association with State governments are
+                    organise at various District Employment Offices to appraise the
+                    youth about opportunities in automobile sector.
+                </p>
+                <br />
+            </div>
+            <div class="row slider-shadow th-carousel home-project-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
+                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-1.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Jalandhar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-2.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Ludhiana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-3.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Amritsar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-4.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">SAS Nagar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-5.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Gurdaspur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/spec-proj-6.webp') }}" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Pathankot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-1.jpeg') }}" alt="Our Project 1" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-2.jpeg') }}" alt="Our Project 2" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-3.jpeg') }}" alt="Our Project 3" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-4.jpeg') }}" alt="Our Project 4" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-5.jpeg') }}" alt="Our Project 5" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-6.jpeg') }}" alt="Our Project 6" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-7.jpeg') }}" alt="Our Project 7" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-grid wow fadeInUp">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/img/main-banner/our-project-img-8.jpeg') }}" alt="Our Project 8" />
+                        </div>
+                        <div class="team-content">
+                            <h3 class="team-title">
+                                <a href="{{ url('#') }}">Self Employement Camp</a>
+                            </h3>
+                            <span class="team-desig">Special Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <div class="position-relative space" id="contact-sec">
@@ -221,10 +420,6 @@
                     <div class="title-area mb-35 text-lg-center">
                         <span class="sub-title">Our Contact Now</span>
                         <h2 class="sec-title">Vkare Retail Ventures Private Limited</h2>
-                        <p class="hero-para">
-                            (A Joint Venture of VKARE Retail Ventures Private Limited and
-                            FDL Services, United Kingdom)
-                        </p>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-40 mb-lg-0 wow fadeInLeft">
@@ -323,11 +518,11 @@
                                         Select eVAHAN Services
                                     </option>
                                     <option value="eVAHAN Suvidha Kendra">eVAHAN Suvidha Kendra (eVSK)</option>
-                                    <option value="Automatic Testing System">
-                                        Automatic Testing System (ATS)
+                                    <option value="Automated Testing System">
+                                        Automated Testing System (ATS)
                                     </option>
-                                    <option value="Automatic Driving Training Centre">
-                                        Automatic Driving Training Centre (ADTC)
+                                    <option value="Accredited Driving Training and Testing Centre">
+                                        Accredited Driving Training and Testing Centre (ADTTC)
                                     </option>
                                 </select>
                             </div>
