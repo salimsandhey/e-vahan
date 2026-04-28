@@ -494,7 +494,8 @@
                 </div>
                 <div class="col-lg-6 pe-xl-5 mb-5 mt-5 mt-lg-0 mb-lg-0">
                     <div class="th-video text-center wow fadeInLeft">
-                        <img src="{{ asset('assets/img/main-banner/puc-under-control.png') }}" alt="about" />
+                        <img src="{{ asset('assets/img/main-banner/puc-under-control.png') }}" alt="about"
+                            style="max-width: 100%; width: 100%; height: auto; object-fit: contain; display: block;" />
                     </div>
                 </div>
             </div>
@@ -1242,7 +1243,7 @@
                 <div class="col-lg-6 mb-30">
                     <div class="detailed-model-card wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-content">
-                            <h3 class="single-title mb-20">Business Model</h3>
+                            <h3 class="single-title mb-20">Subsidy Model</h3>
                             <p class="text-justify border-left-theme pl-20" style="padding-left: 20px;">This Model is
                                 designed to make business ownership affordable and
                                 practical for youth. With a very low starting amount, government subsidy, and funding
@@ -1934,16 +1935,16 @@
                             </div>
                         </div>
                         <!-- <div class="info-card pl-20">
-                                                                                 <div class="info-card_icon">
-                                                                                   <i class="fa-sharp fa-thin fa-phone-volume"></i>
-                                                                                 </div>
-                                                                                 <div class="info-card_content">
-                                                                                   <p class="info-card_text">Call Now:</p>
-                                                                                   <a href="tel:+919855955959" class="info-card_link"
-                                                                                     >+91 9855955959</a
-                                                                                   >
-                                                                                 </div>
-                                                                               </div> -->
+                                                                                     <div class="info-card_icon">
+                                                                                       <i class="fa-sharp fa-thin fa-phone-volume"></i>
+                                                                                     </div>
+                                                                                     <div class="info-card_content">
+                                                                                       <p class="info-card_text">Call Now:</p>
+                                                                                       <a href="tel:+919855955959" class="info-card_link"
+                                                                                         >+91 9855955959</a
+                                                                                       >
+                                                                                     </div>
+                                                                                   </div> -->
                     </div>
                     <div class="about-quote d-flex justify-content-center justify-content-lg-start">
                         <div class="info-card w-100 ">
@@ -2257,120 +2258,120 @@
                 data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1"
                 data-arrows="true">
                 <!-- 
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-1.webp') }}" alt="Team" />
-                                        </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-1.webp') }}" alt="Team" />
+                                            </div>
 
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                                            </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">Jaiswal Filling Station</span>
-                                                <h3 class="team-title1">Phagwara</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-2.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                                            </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">COCO 33</span>
-                                                <h3 class="team-title1">Chandigarh</h3>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">Jaiswal Filling Station</span>
+                                                    <h3 class="team-title1">Phagwara</h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-3.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-2.webp') }}" alt="Team" />
                                             </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">Sushma Fuels</span>
-                                                <h3 class="team-title1">Kharar</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-4.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                                            </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">Petro Junction</span>
-                                                <h3 class="team-title1">Mohali</h3>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">COCO 33</span>
+                                                    <h3 class="team-title1">Chandigarh</h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-5.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-3.webp') }}" alt="Team" />
                                             </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">Khaira Filling Station</span>
-                                                <h3 class="team-title1">Jalandhar</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-6.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
-                                            </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">Gill Filling Station</span>
-                                                <h3 class="team-title1">Dasuya</h3>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">Sushma Fuels</span>
+                                                    <h3 class="team-title1">Kharar</h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="team-grid wow fadeInUp">
-                                        <div class="team-img">
-                                            <img src="{{ asset('assets/img/main-banner/gallery-sec-7.webp') }}" alt="Team" />
-                                        </div>
-                                        <div class="service-list-box">
-                                            <div class="service-list_icon">
-                                                <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-4.webp') }}" alt="Team" />
                                             </div>
-                                            <div class="service-list_content">
-                                                <span class="service-list_text">A+ Pollution Check Center</span>
-                                                <h3 class="team-title1">Kapurthala</h3>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">Petro Junction</span>
+                                                    <h3 class="team-title1">Mohali</h3>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                 -->
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-5.webp') }}" alt="Team" />
+                                            </div>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">Khaira Filling Station</span>
+                                                    <h3 class="team-title1">Jalandhar</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-6.webp') }}" alt="Team" />
+                                            </div>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">Gill Filling Station</span>
+                                                    <h3 class="team-title1">Dasuya</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="team-grid wow fadeInUp">
+                                            <div class="team-img">
+                                                <img src="{{ asset('assets/img/main-banner/gallery-sec-7.webp') }}" alt="Team" />
+                                            </div>
+                                            <div class="service-list-box">
+                                                <div class="service-list_icon">
+                                                    <img src="{{ asset('assets/img/main-banner/fuel.webp') }}" alt="service Icon" />
+                                                </div>
+                                                <div class="service-list_content">
+                                                    <span class="service-list_text">A+ Pollution Check Center</span>
+                                                    <h3 class="team-title1">Kapurthala</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     -->
 
                 <!-- New Gallery Cards -->
                 <div class="col-md-6 col-lg-4">

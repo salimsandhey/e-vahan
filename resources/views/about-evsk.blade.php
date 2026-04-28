@@ -1,5 +1,30 @@
 @extends('layouts.app')
 @section('style')
+    <style>
+        .breadcumb-wrapper {
+            background-size: 100% auto !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            padding: 90px 0 !important;
+            min-height: unset !important;
+        }
+
+        .breadcumb-wrapper .breadcumb-title {
+            font-size: 32px !important;
+            line-height: 1.3 !important;
+        }
+
+        @media (max-width: 991px) {
+            .breadcumb-wrapper {
+                background-size: cover !important;
+                padding: 60px 0 !important;
+            }
+
+            .breadcumb-wrapper .breadcumb-title {
+                font-size: 24px !important;
+            }
+        }
+    </style>
 @endsection
 
 @section('content')
